@@ -1,0 +1,2210 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Boutique Ladies &amp; Kids Wear | Taranagar Chouraha, Bhagwanpur, Varanasi</title>
+<meta name="description" content="Boutique Ladies & Kids Wear — Where Banarasi Elegance Meets Modern Trends for Women & Kids. Sarees, Lehengas, Suits, Kids Party Wear & Custom Stitching at Taranagar Chouraha, Chittupur, Bhagwanpur, Varanasi. Rated 5.0 ⭐" />
+<meta name="theme-color" content="#0B0914" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👗</text></svg>" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink:      '#0B0914',
+          ink2:     '#131022',
+          rose:     '#E2B897',
+          champagne:'#F5D061',
+        },
+        fontFamily: {
+          display: ['"Playfair Display"', 'serif'],
+          body:    ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          hindi:   ['"Noto Sans Devanagari"', 'sans-serif'],
+        },
+      }
+    }
+  };
+</script>
+
+<style>
+  :root { color-scheme: dark; }
+  html, body { background: #0B0914; }
+  body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; overflow-x: hidden; }
+  .font-display { font-family: 'Playfair Display', serif; }
+  .hindi { font-family: 'Noto Sans Devanagari', sans-serif; }
+  ::selection { background: #E2B897; color: #0B0914; }
+
+  ::-webkit-scrollbar { width: 9px; height: 9px; }
+  ::-webkit-scrollbar-track { background: #0B0914; }
+  ::-webkit-scrollbar-thumb { background: linear-gradient(#E2B897, #a855f7); border-radius: 9999px; }
+
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  .glass {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.10);
+  }
+  .glass-strong {
+    background: rgba(19,16,34,0.94);
+    backdrop-filter: blur(26px);
+    -webkit-backdrop-filter: blur(26px);
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+
+  @keyframes floaty { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
+  .floaty { animation: floaty 6s ease-in-out infinite; }
+  .floaty-slow { animation: floaty 9s ease-in-out infinite; }
+
+  @keyframes pulseGlow {
+    0%,100% { box-shadow: 0 0 0 0 rgba(34,197,94,.65); }
+    50%     { box-shadow: 0 0 0 9px rgba(34,197,94,0); }
+  }
+  .glow-green { animation: pulseGlow 2s infinite; }
+
+  @keyframes pulseGlowRed {
+    0%,100% { box-shadow: 0 0 0 0 rgba(244,63,94,.6); }
+    50%     { box-shadow: 0 0 0 9px rgba(244,63,94,0); }
+  }
+  .glow-red { animation: pulseGlowRed 2s infinite; }
+
+  @keyframes shimmer { 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+  .gold-text {
+    background: linear-gradient(90deg,#E2B897,#F5D061,#ffffff,#E2B897);
+    background-size: 200% auto;
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent;
+    animation: shimmer 6s linear infinite;
+  }
+
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .marquee-track { display: flex; gap: 3rem; white-space: nowrap; width: max-content; animation: marquee 26s linear infinite; }
+  .marquee-track:hover { animation-play-state: paused; }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  .reveal { opacity: 0; }
+  .reveal.in { animation: fadeUp .8s cubic-bezier(.22,.68,0,1) forwards; }
+
+  .size-pill {
+    border: 1px solid rgba(255,255,255,.14);
+    color: rgba(255,255,255,.66);
+    background: rgba(255,255,255,.04);
+    border-radius: 9999px;
+    padding: 4px 11px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .01em;
+    transition: all .22s ease;
+    cursor: pointer;
+    line-height: 1.4;
+  }
+  .size-pill:hover { border-color: #E2B897; color: #E2B897; }
+  .size-pill.active {
+    background: linear-gradient(135deg,#E2B897,#F5D061);
+    color: #0B0914;
+    border-color: transparent;
+    box-shadow: 0 6px 18px -6px rgba(226,184,151,.8);
+  }
+
+  .gradient-border {
+    position: relative;
+    border: 1px solid transparent;
+    background:
+      linear-gradient(#131022,#131022) padding-box,
+      linear-gradient(135deg,#ec4899,#a855f7,#6366f1) border-box;
+  }
+
+  .tab-active {
+    background: linear-gradient(135deg,#ec4899,#a855f7,#6366f1);
+    color: #fff;
+    box-shadow: 0 10px 30px -10px rgba(168,85,247,.9);
+    border-color: transparent !important;
+  }
+
+  input, select, textarea { font-family: 'Plus Jakarta Sans', sans-serif; }
+  input[type="date"], input[type="time"] { color-scheme: dark; }
+
+  .drawer-open { transform: translateX(0) !important; }
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+</style>
+</head>
+
+<body class="bg-ink text-white font-body antialiased pb-20 md:pb-0 selection:bg-rose selection:text-ink">
+
+<!-- ============================================================
+     1. ANNOUNCEMENT + LIVE STORE STATUS BAR
+============================================================ -->
+<div class="relative z-40 border-b border-white/10 bg-ink/80 backdrop-blur-xl">
+  <div class="mx-auto max-w-7xl px-3 sm:px-6">
+    <div class="flex items-center justify-between gap-3 py-2">
+
+      <!-- Live status -->
+      <div id="storeStatus" class="flex items-center gap-2 text-[11px] sm:text-xs font-semibold whitespace-nowrap">
+        <span class="h-2 w-2 rounded-full bg-white/40"></span>
+        <span class="text-white/60">Checking store hours…</span>
+      </div>
+
+      <!-- Marquee (desktop) -->
+      <div class="hidden md:block flex-1 overflow-hidden mx-4">
+        <div class="marquee-track text-[11px] tracking-wide text-white/55">
+          <span>✨ New Festive &amp; Wedding Collection 2025 Just Landed</span>
+          <span>🚚 Free Home Delivery in Varanasi on Orders Above ₹1,499</span>
+          <span>💳 UPI • Google Pay • PhonePe • Cash Accepted</span>
+          <span>✂️ Custom Stitching &amp; Alteration Available In-Store</span>
+          <span>✨ New Festive &amp; Wedding Collection 2025 Just Landed</span>
+          <span>🚚 Free Home Delivery in Varanasi on Orders Above ₹1,499</span>
+          <span>💳 UPI • Google Pay • PhonePe • Cash Accepted</span>
+          <span>✂️ Custom Stitching &amp; Alteration Available In-Store</span>
+        </div>
+      </div>
+
+      <a href="tel:+918009326841"
+         class="group flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[11px] sm:text-xs font-semibold text-rose transition hover:border-rose/50 hover:bg-rose/10">
+        <i data-lucide="phone-call" class="h-3.5 w-3.5"></i>
+        <span class="hidden xs:inline sm:inline">080093 26841</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     2. GLASSMORPHIC STICKY NAVBAR
+============================================================ -->
+<header id="navbar" class="sticky top-0 z-40 border-b border-white/10 bg-ink/70 backdrop-blur-xl transition-all duration-300">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+
+    <!-- Logo -->
+    <a href="#home" class="group flex items-center gap-3">
+      <span class="relative grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500 shadow-lg shadow-purple-900/40">
+        <i data-lucide="gem" class="h-5 w-5 text-white"></i>
+        <span class="absolute -right-1 -top-1 h-3 w-3 rounded-full border-2 border-ink bg-champagne"></span>
+      </span>
+      <span class="leading-tight">
+        <span class="block font-display text-[15px] font-bold tracking-wide text-white sm:text-lg">Boutique Ladies &amp; Kids Wear</span>
+        <span class="hindi block text-[10px] font-medium text-rose/80 sm:text-[11px]">बुटीक लेडीज एंड किड्स वेयर</span>
+      </span>
+    </a>
+
+    <!-- Desktop nav -->
+    <ul class="hidden items-center gap-1 lg:flex">
+      <li><a href="#collections" class="nav-link rounded-full px-3.5 py-2 text-[13px] font-medium text-white/70 transition hover:bg-white/5 hover:text-white">Collections</a></li>
+      <li><a href="#collections" data-kids class="nav-link rounded-full px-3.5 py-2 text-[13px] font-medium text-white/70 transition hover:bg-white/5 hover:text-white">Kids Zone</a></li>
+      <li><a href="#custom" class="nav-link rounded-full px-3.5 py-2 text-[13px] font-medium text-white/70 transition hover:bg-white/5 hover:text-white">Custom Boutique</a></li>
+      <li><a href="#lookbook" class="nav-link rounded-full px-3.5 py-2 text-[13px] font-medium text-white/70 transition hover:bg-white/5 hover:text-white">Lookbook</a></li>
+      <li><a href="#location" class="nav-link rounded-full px-3.5 py-2 text-[13px] font-medium text-white/70 transition hover:bg-white/5 hover:text-white">Location</a></li>
+    </ul>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-1.5 sm:gap-2">
+
+      <!-- Wishlist -->
+      <button id="wishBtn" aria-label="Wishlist"
+              class="relative grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-white/5 text-white/70 transition hover:border-rose/40 hover:text-rose">
+        <i data-lucide="heart" class="h-[18px] w-[18px]"></i>
+        <span id="wishCount" class="absolute -right-1 -top-1 hidden min-w-[18px] rounded-full bg-gradient-to-br from-pink-500 to-purple-600 px-1 text-[10px] font-bold leading-[18px] text-white">0</span>
+      </button>
+
+      <!-- Bag -->
+      <button id="bagBtn" aria-label="Shopping bag"
+              class="relative grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-white/5 text-white/70 transition hover:border-champagne/40 hover:text-champagne">
+        <i data-lucide="shopping-bag" class="h-[18px] w-[18px]"></i>
+        <span id="bagCount" class="absolute -right-1 -top-1 hidden min-w-[18px] rounded-full bg-gradient-to-br from-pink-500 to-purple-600 px-1 text-[10px] font-bold leading-[18px] text-white">0</span>
+      </button>
+
+      <!-- WhatsApp CTA -->
+      <a href="https://wa.me/918009326841?text=Hello%20Boutique%20Ladies%20%26%20Kids%20Wear!%20I%20would%20like%20to%20know%20more%20about%20your%20collection."
+         target="_blank" rel="noopener"
+         class="hidden items-center gap-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 px-4 py-2.5 text-[13px] font-semibold text-white shadow-lg shadow-emerald-900/40 transition hover:scale-[1.03] hover:shadow-emerald-800/60 sm:flex">
+        <i data-lucide="message-circle" class="h-4 w-4"></i>
+        WhatsApp Us
+      </a>
+
+      <!-- Mobile menu -->
+      <button id="menuBtn" aria-label="Menu"
+              class="grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-white/5 text-white/70 transition hover:text-white lg:hidden">
+        <i data-lucide="menu" class="h-[18px] w-[18px]"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu panel -->
+  <div id="mobileMenu" class="hidden border-t border-white/10 bg-ink/95 px-4 py-4 backdrop-blur-xl lg:hidden">
+    <div class="grid gap-1.5">
+      <a href="#collections" class="mob-link flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/80 hover:bg-white/5"><i data-lucide="sparkles" class="h-4 w-4 text-rose"></i> Collections</a>
+      <a href="#collections" data-kids class="mob-link flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/80 hover:bg-white/5"><i data-lucide="baby" class="h-4 w-4 text-rose"></i> Kids Zone</a>
+      <a href="#custom" class="mob-link flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/80 hover:bg-white/5"><i data-lucide="scissors" class="h-4 w-4 text-rose"></i> Custom Boutique</a>
+      <a href="#lookbook" class="mob-link flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/80 hover:bg-white/5"><i data-lucide="images" class="h-4 w-4 text-rose"></i> Lookbook</a>
+      <a href="#location" class="mob-link flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/80 hover:bg-white/5"><i data-lucide="map-pin" class="h-4 w-4 text-rose"></i> Location &amp; Timings</a>
+      <a href="https://wa.me/918009326841" target="_blank" rel="noopener"
+         class="mt-2 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 px-4 py-3 text-sm font-semibold text-white">
+        <i data-lucide="message-circle" class="h-4 w-4"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     3. CINEMATIC HERO
+============================================================ -->
+<section id="home" class="relative overflow-hidden">
+  <!-- Ambient glows -->
+  <div class="pointer-events-none absolute -left-40 -top-40 h-[520px] w-[520px] rounded-full bg-purple-700/25 blur-[130px]"></div>
+  <div class="pointer-events-none absolute -right-32 top-24 h-[460px] w-[460px] rounded-full bg-pink-600/20 blur-[130px]"></div>
+  <div class="pointer-events-none absolute bottom-0 left-1/3 h-[380px] w-[380px] rounded-full bg-champagne/10 blur-[130px]"></div>
+  <div class="pointer-events-none absolute inset-0 bg-grid opacity-40"></div>
+
+  <div class="relative mx-auto max-w-7xl px-4 pb-16 pt-10 sm:px-6 sm:pt-14 lg:pb-24 lg:pt-20">
+    <div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-10">
+
+      <!-- LEFT -->
+      <div class="relative z-10">
+        <div class="reveal inline-flex items-center gap-2 rounded-full border border-rose/30 bg-rose/10 px-3.5 py-1.5 text-[11px] font-semibold text-rose sm:text-xs">
+          <i data-lucide="sparkles" class="h-3.5 w-3.5"></i>
+          <span>#1 Family &amp; Ladies Fashion Destination in Chittupur, Varanasi</span>
+        </div>
+
+        <h1 class="reveal mt-6 font-display text-[2.6rem] font-bold leading-[1.05] tracking-tight sm:text-6xl lg:text-[4.2rem]">
+          <span class="block text-white">Where</span>
+          <span class="gold-text block">Banarasi Elegance</span>
+          <span class="block text-white">Meets Modern Trends</span>
+        </h1>
+
+        <p class="reveal mt-3 font-display text-lg italic text-rose/80 sm:text-xl">
+          for Women &amp; Kids
+        </p>
+
+        <p class="reveal hindi mt-2 text-sm text-white/45 sm:text-base">
+          बुटीक लेडीज एंड किड्स वेयर — तारानगर चौराहा, छित्तुपुर, भगवानपुर, वाराणसी
+        </p>
+
+        <p class="reveal mt-5 max-w-lg text-[13.5px] leading-relaxed text-white/60 sm:text-[15px]">
+          Handpicked sarees, lehengas, designer suits and adorable kids party wear — stitched to your fit,
+          priced for your budget. Visit us at <span class="font-semibold text-white">Taranagar Chouraha, Bhagwanpur</span>
+          or order instantly on WhatsApp.
+        </p>
+
+        <!-- Trust stats -->
+        <div class="reveal mt-7 grid max-w-lg grid-cols-3 gap-2.5 sm:gap-3">
+          <div class="glass rounded-2xl px-3 py-3 text-center">
+            <p class="font-display text-lg font-bold text-champagne sm:text-xl">5.0★</p>
+            <p class="mt-0.5 text-[10px] font-medium uppercase tracking-wider text-white/45">Google Rated</p>
+          </div>
+          <div class="glass rounded-2xl px-3 py-3 text-center">
+            <p class="font-display text-lg font-bold text-champagne sm:text-xl">100+</p>
+            <p class="mt-0.5 text-[10px] font-medium uppercase tracking-wider text-white/45">Latest Designs</p>
+          </div>
+          <div class="glass rounded-2xl px-3 py-3 text-center">
+            <p class="font-display text-lg font-bold text-champagne sm:text-xl">Custom</p>
+            <p class="mt-0.5 text-[10px] font-medium uppercase tracking-wider text-white/45">Fitting Available</p>
+          </div>
+        </div>
+
+        <!-- CTAs -->
+        <div class="reveal mt-7 flex flex-wrap items-center gap-3">
+          <a href="#collections"
+             class="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 px-6 py-3.5 text-sm font-semibold text-white shadow-xl shadow-purple-900/50 transition hover:scale-[1.03] hover:shadow-purple-700/60">
+            Explore Collection
+            <i data-lucide="arrow-right" class="h-4 w-4 transition-transform group-hover:translate-x-1"></i>
+          </a>
+          <a href="#custom"
+             class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white/85 backdrop-blur-xl transition hover:border-champagne/50 hover:text-champagne">
+            <i data-lucide="calendar-check" class="h-4 w-4"></i>
+            Book Boutique Visit
+          </a>
+        </div>
+
+        <div class="reveal mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-[11px] text-white/40">
+          <span class="flex items-center gap-1.5"><i data-lucide="badge-check" class="h-3.5 w-3.5 text-emerald-400"></i> Verified Local Boutique</span>
+          <span class="flex items-center gap-1.5"><i data-lucide="wallet" class="h-3.5 w-3.5 text-emerald-400"></i> UPI / GPay / PhonePe</span>
+          <span class="flex items-center gap-1.5"><i data-lucide="truck" class="h-3.5 w-3.5 text-emerald-400"></i> Local Delivery</span>
+        </div>
+      </div>
+
+      <!-- RIGHT — Bento photo grid -->
+      <div class="relative reveal">
+        <div class="grid grid-cols-2 gap-3 sm:gap-4">
+          <!-- Tall -->
+          <div class="col-span-1 row-span-2 overflow-hidden rounded-[26px] border border-white/10 shadow-2xl shadow-purple-950/60">
+            <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80"
+                 alt="Ladies Banarasi ethnic wear collection"
+                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80';"
+                 class="h-[330px] w-full object-cover transition-transform duration-[1.4s] hover:scale-110 sm:h-[430px] lg:h-[470px]">
+          </div>
+          <!-- Top right -->
+          <div class="overflow-hidden rounded-[26px] border border-white/10 shadow-2xl shadow-pink-950/50">
+            <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=700&q=80"
+                 alt="Kids party wear collection"
+                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=700&q=80';"
+                 class="h-[158px] w-full object-cover transition-transform duration-[1.4s] hover:scale-110 sm:h-[207px] lg:h-[227px]">
+          </div>
+          <!-- Bottom right -->
+          <div class="overflow-hidden rounded-[26px] border border-white/10 shadow-2xl shadow-indigo-950/50">
+            <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=700&q=80"
+                 alt="Designer lehenga choli"
+                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=700&q=80';"
+                 class="h-[158px] w-full object-cover transition-transform duration-[1.4s] hover:scale-110 sm:h-[207px] lg:h-[227px]">
+          </div>
+        </div>
+
+        <!-- Floating glass card 1 -->
+        <div class="floaty absolute -left-2 top-6 z-20 hidden rounded-2xl border border-white/15 bg-ink2/80 px-3.5 py-2.5 shadow-2xl backdrop-blur-xl sm:block">
+          <p class="text-[10px] font-medium uppercase tracking-widest text-white/40">Kids Party Frock</p>
+          <p class="mt-0.5 font-display text-base font-bold text-white">₹1,299 <span class="text-[11px] font-normal text-white/35 line-through">₹1,999</span></p>
+          <div class="mt-1 flex items-center gap-1 text-[10px] text-champagne">
+            <i data-lucide="star" class="h-3 w-3 fill-champagne"></i><span class="font-semibold">5.0</span>
+            <span class="text-white/35">· 62 reviews</span>
+          </div>
+        </div>
+
+        <!-- Floating glass card 2 -->
+        <div class="floaty-slow absolute -bottom-4 right-1 z-20 rounded-2xl border border-white/15 bg-ink2/85 px-4 py-3 shadow-2xl backdrop-blur-xl">
+          <div class="flex items-center gap-2.5">
+            <span class="grid h-9 w-9 place-items-center rounded-full bg-emerald-500/15 text-emerald-400">
+              <i data-lucide="shield-check" class="h-4 w-4"></i>
+            </span>
+            <div>
+              <p class="text-[11px] font-bold text-white">500+ Happy Families</p>
+              <p class="hindi text-[10px] text-white/45">भगवानपुर, वाराणसी</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     4. CATALOG — FILTERS, SEARCH, SORT
+============================================================ -->
+<section id="collections" class="relative scroll-mt-24 border-t border-white/5 py-14 sm:py-20">
+  <div class="pointer-events-none absolute left-1/2 top-0 h-[400px] w-[700px] -translate-x-1/2 rounded-full bg-purple-700/10 blur-[140px]"></div>
+
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6">
+
+    <!-- Heading -->
+    <div class="flex flex-col items-start justify-between gap-5 sm:flex-row sm:items-end">
+      <div>
+        <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-rose">
+          <i data-lucide="layout-grid" class="h-3 w-3"></i> Our Collection
+        </span>
+        <h2 class="mt-3 font-display text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+          Curated for <span class="gold-text">Women &amp; Kids</span>
+        </h2>
+        <p class="hindi mt-1.5 text-sm text-white/45">महिलाओं और बच्चों के लिए खास कलेक्शन</p>
+      </div>
+
+      <div class="flex w-full items-center gap-2 sm:w-auto">
+        <!-- Search -->
+        <div class="relative flex-1 sm:w-64 sm:flex-none">
+          <i data-lucide="search" class="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-white/35"></i>
+          <input id="searchInput" type="text" placeholder="Search suits, sarees, frocks…"
+                 class="w-full rounded-full border border-white/10 bg-white/5 py-2.5 pl-10 pr-4 text-[13px] text-white placeholder:text-white/30 outline-none backdrop-blur-xl transition focus:border-rose/50 focus:bg-white/[0.07]">
+        </div>
+        <!-- Sort -->
+        <div class="relative">
+          <select id="sortSelect"
+                  class="cursor-pointer appearance-none rounded-full border border-white/10 bg-white/5 py-2.5 pl-4 pr-9 text-[13px] font-medium text-white/80 outline-none backdrop-blur-xl transition focus:border-rose/50">
+            <option value="popular" class="bg-ink2">Popular</option>
+            <option value="low" class="bg-ink2">Price: Low to High</option>
+            <option value="high" class="bg-ink2">Price: High to Low</option>
+            <option value="new" class="bg-ink2">New Arrivals</option>
+          </select>
+          <i data-lucide="chevron-down" class="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter tabs -->
+    <div id="filterTabs" class="no-scrollbar mt-7 flex gap-2 overflow-x-auto pb-1">
+      <button data-filter="all" class="filter-tab tab-active shrink-0 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[12.5px] font-semibold text-white/70 transition hover:text-white">All</button>
+      <button data-filter="ladies" class="filter-tab shrink-0 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[12.5px] font-semibold text-white/70 transition hover:text-white">Ladies Ethnic <span class="hindi text-white/40">(सूट और कुर्ती)</span></button>
+      <button data-filter="sarees" class="filter-tab shrink-0 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[12.5px] font-semibold text-white/70 transition hover:text-white">Sarees &amp; Lehengas</button>
+      <button data-filter="kidsparty" class="filter-tab shrink-0 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[12.5px] font-semibold text-white/70 transition hover:text-white">Kids Party Wear <span class="hindi text-white/40">(फैंसी कपड़े)</span></button>
+      <button data-filter="kidscasual" class="filter-tab shrink-0 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[12.5px] font-semibold text-white/70 transition hover:text-white">Kids Casuals</button>
+      <button data-filter="custom" class="filter-tab shrink-0 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[12.5px] font-semibold text-white/70 transition hover:text-white">Boutique Custom Specials</button>
+    </div>
+
+    <!-- Result meta -->
+    <div class="mt-5 flex items-center justify-between">
+      <p id="resultCount" class="text-[12px] text-white/40">Showing all pieces</p>
+      <p class="hidden text-[11px] text-white/30 sm:block">Tap a size, then add to bag</p>
+    </div>
+
+    <!-- Grid -->
+    <div id="productGrid" class="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+
+    <!-- Empty state -->
+    <div id="emptyState" class="hidden flex-col items-center justify-center rounded-3xl border border-dashed border-white/15 py-16 text-center">
+      <i data-lucide="search-x" class="h-10 w-10 text-white/25"></i>
+      <p class="mt-3 font-display text-lg text-white/70">No pieces found</p>
+      <p class="mt-1 text-[13px] text-white/40">Try a different search or category.</p>
+      <button id="resetFilters" class="mt-4 rounded-full border border-rose/40 bg-rose/10 px-5 py-2 text-[13px] font-semibold text-rose transition hover:bg-rose/20">Reset Filters</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     5. CUSTOM TAILORING / APPOINTMENT
+============================================================ -->
+<section id="custom" class="relative scroll-mt-24 overflow-hidden border-t border-white/5 py-14 sm:py-20">
+  <div class="pointer-events-none absolute -right-40 top-1/4 h-[460px] w-[460px] rounded-full bg-pink-700/15 blur-[140px]"></div>
+  <div class="pointer-events-none absolute -left-40 bottom-0 h-[420px] w-[420px] rounded-full bg-indigo-700/15 blur-[140px]"></div>
+
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6">
+    <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+
+      <!-- Copy -->
+      <div>
+        <span class="inline-flex items-center gap-2 rounded-full border border-champagne/25 bg-champagne/10 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-champagne">
+          <i data-lucide="scissors" class="h-3 w-3"></i> Custom Boutique Studio
+        </span>
+        <h2 class="mt-3 font-display text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-[2.9rem]">
+          Stitched to <span class="gold-text">Your Fit</span>,<br class="hidden sm:block"> Designed to Your Taste
+        </h2>
+        <p class="hindi mt-2 text-sm text-white/45">कस्टम सिलाई, अल्टरेशन और पर्सनल शॉपिंग असिस्टेंस</p>
+
+        <p class="mt-4 max-w-lg text-[13.5px] leading-relaxed text-white/60 sm:text-[15px]">
+          Want a blouse that fits perfectly, a lehenga in your favourite colour, or a matching set for your little one?
+          Our in-house boutique team takes your measurements, shares fabric options, and delivers a finish that feels
+          made-for-you.
+        </p>
+
+        <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+          <li class="glass flex items-start gap-3 rounded-2xl p-3.5">
+            <span class="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-full bg-pink-500/15 text-pink-300"><i data-lucide="ruler" class="h-4 w-4"></i></span>
+            <div>
+              <p class="text-[13px] font-semibold text-white">Perfect Fitting</p>
+              <p class="text-[11px] text-white/40">Free measurement session in-store</p>
+            </div>
+          </li>
+          <li class="glass flex items-start gap-3 rounded-2xl p-3.5">
+            <span class="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-full bg-purple-500/15 text-purple-300"><i data-lucide="palette" class="h-4 w-4"></i></span>
+            <div>
+              <p class="text-[13px] font-semibold text-white">Fabric Library</p>
+              <p class="text-[11px] text-white/40">Silk, georgette, cotton &amp; more</p>
+            </div>
+          </li>
+          <li class="glass flex items-start gap-3 rounded-2xl p-3.5">
+            <span class="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-full bg-indigo-500/15 text-indigo-300"><i data-lucide="timer" class="h-4 w-4"></i></span>
+            <div>
+              <p class="text-[13px] font-semibold text-white">On-Time Delivery</p>
+              <p class="text-[11px] text-white/40">Most orders ready in 5–7 days</p>
+            </div>
+          </li>
+          <li class="glass flex items-start gap-3 rounded-2xl p-3.5">
+            <span class="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-full bg-emerald-500/15 text-emerald-300"><i data-lucide="hand-coins" class="h-4 w-4"></i></span>
+            <div>
+              <p class="text-[13px] font-semibold text-white">Honest Pricing</p>
+              <p class="text-[11px] text-white/40">No hidden stitching charges</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Form -->
+      <div class="gradient-border relative rounded-[28px] p-[1px] shadow-2xl shadow-purple-950/50">
+        <div class="rounded-[27px] bg-ink2/95 p-5 backdrop-blur-2xl sm:p-7">
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-display text-xl font-bold text-white sm:text-2xl">Book an Appointment</h3>
+              <p class="mt-0.5 text-[12px] text-white/45">We'll confirm on WhatsApp within minutes</p>
+            </div>
+            <span class="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500">
+              <i data-lucide="calendar-heart" class="h-5 w-5 text-white"></i>
+            </span>
+          </div>
+
+          <form id="apptForm" class="mt-5 grid gap-3.5" novalidate>
+            <div class="grid gap-3.5 sm:grid-cols-2">
+              <div>
+                <label for="apptName" class="mb-1.5 block text-[11px] font-semibold uppercase tracking-wider text-white/45">Your Name</label>
+                <input id="apptName" type="text" required placeholder="e.g. Priya Sharma"
+                       class="w-full rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[13px] text-white placeholder:text-white/25 outline-none transition focus:border-rose/50 focus:bg-white/[0.07]">
+              </div>
+              <div>
+                <label for="apptPhone" class="mb-1.5 block text-[11px] font-semibold uppercase tracking-wider text-white/45">Phone Number</label>
+                <input id="apptPhone" type="tel" inputmode="numeric" required maxlength="10" placeholder="10-digit mobile"
+                       class="w-full rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[13px] text-white placeholder:text-white/25 outline-none transition focus:border-rose/50 focus:bg-white/[0.07]">
+              </div>
+            </div>
+
+            <div>
+              <label for="apptService" class="mb-1.5 block text-[11px] font-semibold uppercase tracking-wider text-white/45">Service Type</label>
+              <div class="relative">
+                <select id="apptService" required
+                        class="w-full cursor-pointer appearance-none rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 pr-9 text-[13px] text-white outline-none transition focus:border-rose/50">
+                  <option value="Custom Suit / Blouse Stitching" class="bg-ink2">Custom Suit / Blouse Stitching</option>
+                  <option value="Kids Dress Fitting" class="bg-ink2">Kids Dress Fitting</option>
+                  <option value="Bridal / Party Consultation" class="bg-ink2">Bridal / Party Consultation</option>
+                  <option value="In-Store Visit" class="bg-ink2">In-Store Visit</option>
+                </select>
+                <i data-lucide="chevron-down" class="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40"></i>
+              </div>
+            </div>
+
+            <div class="grid gap-3.5 sm:grid-cols-2">
+              <div>
+                <label for="apptDate" class="mb-1.5 block text-[11px] font-semibold uppercase tracking-wider text-white/45">Preferred Date</label>
+                <input id="apptDate" type="date" required
+                       class="w-full rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[13px] text-white outline-none transition focus:border-rose/50">
+              </div>
+              <div>
+                <label for="apptTime" class="mb-1.5 block text-[11px] font-semibold uppercase tracking-wider text-white/45">Preferred Time</label>
+                <div class="relative">
+                  <select id="apptTime" required
+                          class="w-full cursor-pointer appearance-none rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 pr-9 text-[13px] text-white outline-none transition focus:border-rose/50"></select>
+                  <i data-lucide="chevron-down" class="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40"></i>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <label for="apptNote" class="mb-1.5 block text-[11px] font-semibold uppercase tracking-wider text-white/45">Notes <span class="font-normal normal-case text-white/25">(optional)</span></label>
+              <textarea id="apptNote" rows="2" placeholder="Colour preference, occasion, alteration details…"
+                        class="w-full resize-none rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[13px] text-white placeholder:text-white/25 outline-none transition focus:border-rose/50 focus:bg-white/[0.07]"></textarea>
+            </div>
+
+            <p id="apptError" class="hidden rounded-lg border border-rose-500/30 bg-rose-500/10 px-3 py-2 text-[12px] font-medium text-rose-300"></p>
+
+            <button type="submit"
+                    class="mt-1 flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 px-5 py-3.5 text-sm font-bold text-white shadow-lg shadow-emerald-900/40 transition hover:scale-[1.01] hover:shadow-emerald-800/60">
+              <i data-lucide="send" class="h-4 w-4"></i>
+              Send Request on WhatsApp
+            </button>
+
+            <p class="flex items-center justify-center gap-1.5 text-[11px] text-white/30">
+              <i data-lucide="lock" class="h-3 w-3"></i> Opens WhatsApp · Mon–Sat, 11:00 AM – 9:00 PM
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     6. LOOKBOOK
+============================================================ -->
+<section id="lookbook" class="relative scroll-mt-24 overflow-hidden border-t border-white/5 py-14 sm:py-20">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6">
+    <div class="flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-end">
+      <div>
+        <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-rose">
+          <i data-lucide="images" class="h-3 w-3"></i> Lookbook
+        </span>
+        <h2 class="mt-3 font-display text-3xl font-bold text-white sm:text-4xl">Trends From Our Studio</h2>
+        <p class="hindi mt-1.5 text-sm text-white/45">हमारे बुटीक की ताज़ा झलक</p>
+      </div>
+      <a href="https://wa.me/918009326841?text=Hello!%20Please%20share%20your%20latest%20lookbook%20and%20price%20list."
+         target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-[13px] font-semibold text-white/80 transition hover:border-rose/50 hover:text-rose">
+        <i data-lucide="send" class="h-4 w-4"></i> Request Full Lookbook
+      </a>
+    </div>
+
+    <div class="no-scrollbar mt-6 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-3">
+      <div class="group relative w-[220px] shrink-0 snap-start overflow-hidden rounded-3xl border border-white/10 sm:w-[260px]">
+        <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80" alt="Ethnic look 1"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80';"
+             class="h-[300px] w-full object-cover transition-transform duration-700 group-hover:scale-110 sm:h-[340px]">
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/60 to-transparent p-4">
+          <p class="font-display text-sm font-semibold text-white">Festive Anarkali</p>
+          <p class="hindi text-[11px] text-white/50">फेस्टिव अनारकली</p>
+        </div>
+      </div>
+      <div class="group relative w-[220px] shrink-0 snap-start overflow-hidden rounded-3xl border border-white/10 sm:w-[260px]">
+        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80" alt="Kids look 1"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80';"
+             class="h-[300px] w-full object-cover transition-transform duration-700 group-hover:scale-110 sm:h-[340px]">
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/60 to-transparent p-4">
+          <p class="font-display text-sm font-semibold text-white">Kids Party Frock</p>
+          <p class="hindi text-[11px] text-white/50">बच्चों की पार्टी फ्रॉक</p>
+        </div>
+      </div>
+      <div class="group relative w-[220px] shrink-0 snap-start overflow-hidden rounded-3xl border border-white/10 sm:w-[260px]">
+        <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80" alt="Saree look"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80';"
+             class="h-[300px] w-full object-cover transition-transform duration-700 group-hover:scale-110 sm:h-[340px]">
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/60 to-transparent p-4">
+          <p class="font-display text-sm font-semibold text-white">Banarasi Silk Saree</p>
+          <p class="hindi text-[11px] text-white/50">बनारसी सिल्क साड़ी</p>
+        </div>
+      </div>
+      <div class="group relative w-[220px] shrink-0 snap-start overflow-hidden rounded-3xl border border-white/10 sm:w-[260px]">
+        <img src="https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?auto=format&fit=crop&w=600&q=80" alt="Kidswear look"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80';"
+             class="h-[300px] w-full object-cover transition-transform duration-700 group-hover:scale-110 sm:h-[340px]">
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/60 to-transparent p-4">
+          <p class="font-display text-sm font-semibold text-white">Kids Co-ord Set</p>
+          <p class="hindi text-[11px] text-white/50">किड्स को-ऑर्ड सेट</p>
+        </div>
+      </div>
+      <div class="group relative w-[220px] shrink-0 snap-start overflow-hidden rounded-3xl border border-white/10 sm:w-[260px]">
+        <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=600&q=80" alt="Lehenga look"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80';"
+             class="h-[300px] w-full object-cover transition-transform duration-700 group-hover:scale-110 sm:h-[340px]">
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/60 to-transparent p-4">
+          <p class="font-display text-sm font-semibold text-white">Wedding Lehenga</p>
+          <p class="hindi text-[11px] text-white/50">वेडिंग लहंगा</p>
+        </div>
+      </div>
+      <div class="group relative w-[220px] shrink-0 snap-start overflow-hidden rounded-3xl border border-white/10 sm:w-[260px]">
+        <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80" alt="Kids fashion look"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80';"
+             class="h-[300px] w-full object-cover transition-transform duration-700 group-hover:scale-110 sm:h-[340px]">
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/60 to-transparent p-4">
+          <p class="font-display text-sm font-semibold text-white">Boys Party Blazer</p>
+          <p class="hindi text-[11px] text-white/50">बॉयज़ पार्टी ब्लेज़र</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     7. WHY CHOOSE US — BENTO GRID
+============================================================ -->
+<section class="relative border-t border-white/5 py-14 sm:py-20">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6">
+    <div class="max-w-2xl">
+      <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-rose">
+        <i data-lucide="badge-check" class="h-3 w-3"></i> Why Choose Us
+      </span>
+      <h2 class="mt-3 font-display text-3xl font-bold text-white sm:text-4xl">
+        Varanasi's Trusted <span class="gold-text">Boutique Address</span>
+      </h2>
+      <p class="hindi mt-1.5 text-sm text-white/45">क्यों चुनें बुटीक लेडीज एंड किड्स वेयर?</p>
+    </div>
+
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Big card -->
+      <div class="glass group relative overflow-hidden rounded-3xl p-6 transition hover:border-rose/30 sm:col-span-2 lg:col-span-1 lg:row-span-2">
+        <div class="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-pink-600/20 blur-3xl transition group-hover:bg-pink-500/30"></div>
+        <span class="grid h-12 w-12 place-items-center rounded-2xl bg-gradient-to-br from-pink-500 to-purple-600 shadow-lg shadow-purple-900/50">
+          <i data-lucide="gem" class="h-6 w-6 text-white"></i>
+        </span>
+        <h3 class="mt-5 font-display text-xl font-bold text-white">Premium Quality Fabrics</h3>
+        <p class="hindi mt-1 text-[12px] text-white/40">प्रीमियम क्वालिटी कपड़े</p>
+        <p class="mt-3 text-[13.5px] leading-relaxed text-white/55">
+          Every piece is hand-checked before it reaches our racks — pure cotton, georgette, silk blends and
+          imported nets sourced from trusted mills.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-white/60">Pure Cotton</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-white/60">Georgette</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-white/60">Silk Blend</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-white/60">Imported Net</span>
+        </div>
+        <div class="mt-6 flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 p-3">
+          <i data-lucide="star" class="h-4 w-4 fill-champagne text-champagne"></i>
+          <p class="text-[12px] font-semibold text-white">5.0 Google Rating</p>
+          <span class="text-[11px] text-white/35">· Verified Boutique</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="glass group rounded-3xl p-5 transition hover:border-champagne/30">
+        <span class="grid h-10 w-10 place-items-center rounded-xl bg-champagne/15 text-champagne">
+          <i data-lucide="tag" class="h-5 w-5"></i>
+        </span>
+        <h3 class="mt-4 font-display text-lg font-bold text-white">Affordable Local Pricing</h3>
+        <p class="mt-1.5 text-[13px] leading-relaxed text-white/55">Boutique-quality fashion at Bhagwanpur-friendly prices. No inflated metro mark-ups.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="glass group rounded-3xl p-5 transition hover:border-purple-400/30">
+        <span class="grid h-10 w-10 place-items-center rounded-xl bg-purple-500/15 text-purple-300">
+          <i data-lucide="sparkles" class="h-5 w-5"></i>
+        </span>
+        <h3 class="mt-4 font-display text-lg font-bold text-white">Latest Festive &amp; Wedding Collection</h3>
+        <p class="mt-1.5 text-[13px] leading-relaxed text-white/55">Fresh arrivals every festive season — Diwali, Chhath, Karwa Chauth and wedding-shaadi specials.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="glass group rounded-3xl p-5 transition hover:border-emerald-400/30">
+        <span class="grid h-10 w-10 place-items-center rounded-xl bg-emerald-500/15 text-emerald-300">
+          <i data-lucide="wallet" class="h-5 w-5"></i>
+        </span>
+        <h3 class="mt-4 font-display text-lg font-bold text-white">Easy UPI / Google Pay Payments</h3>
+        <p class="mt-1.5 text-[13px] leading-relaxed text-white/55">Pay the way you prefer — Cash, Google Pay, PhonePe or any UPI app. Instant, safe, receipted.</p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="glass group rounded-3xl p-5 transition hover:border-indigo-400/30">
+        <span class="grid h-10 w-10 place-items-center rounded-xl bg-indigo-500/15 text-indigo-300">
+          <i data-lucide="map-pin" class="h-5 w-5"></i>
+        </span>
+        <h3 class="mt-4 font-display text-lg font-bold text-white">Prime Location at Taranagar Chouraha</h3>
+        <p class="mt-1.5 text-[13px] leading-relaxed text-white/55">Right at the Taranagar Chouraha crossing, Chittupur — easy to reach, easy parking, easy shopping.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     8. LOCATION, TIMINGS & CONTACT
+============================================================ -->
+<section id="location" class="relative scroll-mt-24 border-t border-white/5 py-14 sm:py-20">
+  <div class="pointer-events-none absolute left-0 top-1/3 h-[420px] w-[420px] rounded-full bg-emerald-700/10 blur-[140px]"></div>
+
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6">
+    <div class="max-w-2xl">
+      <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-rose">
+        <i data-lucide="map-pin" class="h-3 w-3"></i> Visit Us
+      </span>
+      <h2 class="mt-3 font-display text-3xl font-bold text-white sm:text-4xl">Find Our Boutique</h2>
+      <p class="hindi mt-1.5 text-sm text-white/45">हमारा पता और समय</p>
+    </div>
+
+    <div class="mt-8 grid gap-5 lg:grid-cols-2">
+
+      <!-- Address + actions -->
+      <div class="glass rounded-3xl p-5 sm:p-7">
+        <div class="flex items-start gap-3">
+          <span class="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500">
+            <i data-lucide="store" class="h-5 w-5 text-white"></i>
+          </span>
+          <div>
+            <h3 class="font-display text-lg font-bold text-white">Boutique Ladies &amp; Kids Wear</h3>
+            <p class="hindi text-[12px] text-rose/80">बुटीक लेडीज एंड किड्स वेयर</p>
+          </div>
+        </div>
+
+        <div class="mt-5 rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+          <p class="text-[10px] font-bold uppercase tracking-[0.15em] text-white/35">Address (English)</p>
+          <p class="mt-1.5 text-[13.5px] leading-relaxed text-white/75">
+            Taranagar Chouraha, 7284+VGM, Chittupur,<br>Bhagwanpur, Varanasi, Uttar Pradesh 221011
+          </p>
+          <div class="my-3 h-px bg-white/10"></div>
+          <p class="text-[10px] font-bold uppercase tracking-[0.15em] text-white/35">पता (हिन्दी)</p>
+          <p class="hindi mt-1.5 text-[13.5px] leading-relaxed text-white/75">
+            तारानगर चौराहा, छित्तुपुर, भगवानपुर, वाराणसी, उत्तर प्रदेश 221011
+          </p>
+        </div>
+
+        <!-- Rating badge -->
+        <div class="mt-4 flex items-center gap-3 rounded-2xl border border-champagne/20 bg-champagne/[0.07] p-3.5">
+          <div class="flex items-center gap-0.5">
+            <i data-lucide="star" class="h-4 w-4 fill-champagne text-champagne"></i>
+            <i data-lucide="star" class="h-4 w-4 fill-champagne text-champagne"></i>
+            <i data-lucide="star" class="h-4 w-4 fill-champagne text-champagne"></i>
+            <i data-lucide="star" class="h-4 w-4 fill-champagne text-champagne"></i>
+            <i data-lucide="star" class="h-4 w-4 fill-champagne text-champagne"></i>
+          </div>
+          <div>
+            <p class="text-[12.5px] font-bold text-white">5.0 Rating</p>
+            <p class="text-[11px] text-white/45">Verified Local Boutique · Bhagwanpur, Varanasi</p>
+          </div>
+        </div>
+
+        <!-- Payment modes -->
+        <div class="mt-4 flex flex-wrap items-center gap-2">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-white/30">We Accept:</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/65">Cash</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/65">Google Pay</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/65">PhonePe</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/65">UPI</span>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="mt-5 grid gap-2.5 sm:grid-cols-3">
+          <a href="tel:+918009326841"
+             class="flex items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/5 px-3 py-3 text-[12.5px] font-semibold text-white transition hover:border-rose/50 hover:text-rose">
+            <i data-lucide="phone" class="h-4 w-4"></i> Call Now
+          </a>
+          <a href="https://wa.me/918009326841?text=Hello%20Boutique%20Ladies%20%26%20Kids%20Wear!%20I%20found%20you%20on%20Google." target="_blank" rel="noopener"
+             class="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 px-3 py-3 text-[12.5px] font-semibold text-white transition hover:scale-[1.02]">
+            <i data-lucide="message-circle" class="h-4 w-4"></i> WhatsApp
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Taranagar+Chouraha+7284%2BVGM+Chittupur+Bhagwanpur+Varanasi+Uttar+Pradesh+221011"
+             target="_blank" rel="noopener"
+             class="flex items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/5 px-3 py-3 text-[12.5px] font-semibold text-white transition hover:border-champagne/50 hover:text-champagne">
+            <i data-lucide="navigation" class="h-4 w-4"></i> Directions
+          </a>
+        </div>
+      </div>
+
+      <!-- Schedule + map -->
+      <div class="grid gap-5">
+        <div class="glass rounded-3xl p-5 sm:p-6">
+          <div class="flex items-center justify-between">
+            <h3 class="font-display text-lg font-bold text-white">Store Timings</h3>
+            <span class="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-semibold text-white/55">
+              <i data-lucide="clock" class="h-3 w-3"></i> IST
+            </span>
+          </div>
+
+          <div id="scheduleTable" class="mt-4 overflow-hidden rounded-2xl border border-white/10">
+            <div class="grid grid-cols-2 bg-white/[0.06] px-4 py-2.5 text-[10px] font-bold uppercase tracking-[0.14em] text-white/40">
+              <span>Day</span><span class="text-right">Hours</span>
+            </div>
+            <div data-day="1" class="sch-row grid grid-cols-2 px-4 py-2.5 text-[12.5px]"><span class="text-white/70">Monday</span><span class="text-right font-medium text-white/80">11:00 AM – 9:00 PM</span></div>
+            <div data-day="2" class="sch-row grid grid-cols-2 px-4 py-2.5 text-[12.5px]"><span class="text-white/70">Tuesday</span><span class="text-right font-medium text-white/80">11:00 AM – 9:00 PM</span></div>
+            <div data-day="3" class="sch-row grid grid-cols-2 px-4 py-2.5 text-[12.5px]"><span class="text-white/70">Wednesday</span><span class="text-right font-medium text-white/80">11:00 AM – 9:00 PM</span></div>
+            <div data-day="4" class="sch-row grid grid-cols-2 px-4 py-2.5 text-[12.5px]"><span class="text-white/70">Thursday</span><span class="text-right font-medium text-white/80">11:00 AM – 9:00 PM</span></div>
+            <div data-day="5" class="sch-row grid grid-cols-2 px-4 py-2.5 text-[12.5px]"><span class="text-white/70">Friday</span><span class="text-right font-medium text-white/80">11:00 AM – 9:00 PM</span></div>
+            <div data-day="6" class="sch-row grid grid-cols-2 px-4 py-2.5 text-[12.5px]"><span class="text-white/70">Saturday</span><span class="text-right font-medium text-white/80">11:00 AM – 9:00 PM</span></div>
+            <div data-day="0" class="sch-row grid grid-cols-2 px-4 py-2.5 text-[12.5px]"><span class="text-white/70">Sunday</span><span class="text-right font-semibold text-rose-300">Closed</span></div>
+          </div>
+
+          <p class="mt-3 flex items-center gap-1.5 text-[11px] text-white/35">
+            <i data-lucide="info" class="h-3 w-3"></i> Festive hours may vary — please WhatsApp before visiting on holidays.
+          </p>
+        </div>
+
+        <!-- Map -->
+        <div class="overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-black/40">
+          <iframe
+            title="Boutique Ladies & Kids Wear location map"
+            src="https://maps.google.com/maps?q=Taranagar%20Chouraha%2C%20Chittupur%2C%20Bhagwanpur%2C%20Varanasi%2C%20Uttar%20Pradesh%20221011&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            class="h-[230px] w-full sm:h-[260px]"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;filter:grayscale(.35) invert(.9) hue-rotate(180deg) contrast(.9);"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     9. FOOTER
+============================================================ -->
+<footer class="relative border-t border-white/10 bg-ink2/60 py-12">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6">
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+
+      <div class="lg:col-span-2">
+        <div class="flex items-center gap-3">
+          <span class="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500">
+            <i data-lucide="gem" class="h-5 w-5 text-white"></i>
+          </span>
+          <div>
+            <p class="font-display text-base font-bold text-white">Boutique Ladies &amp; Kids Wear</p>
+            <p class="hindi text-[11px] text-rose/80">बुटीक लेडीज एंड किड्स वेयर</p>
+          </div>
+        </div>
+        <p class="mt-4 max-w-md text-[13px] leading-relaxed text-white/50">
+          Where Banarasi Elegance Meets Modern Trends for Women &amp; Kids. Sarees, lehengas, designer suits,
+          kids party wear and custom stitching — all under one roof in Bhagwanpur, Varanasi.
+        </p>
+        <div class="mt-4 flex items-center gap-2">
+          <span class="flex items-center gap-1 rounded-full border border-champagne/20 bg-champagne/10 px-2.5 py-1 text-[11px] font-semibold text-champagne">
+            <i data-lucide="star" class="h-3 w-3 fill-champagne"></i> 5.0 Rated
+          </span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/55">Cash</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/55">UPI</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/55">GPay</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/55">PhonePe</span>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-[10px] font-bold uppercase tracking-[0.18em] text-white/35">Explore</p>
+        <ul class="mt-3 space-y-2 text-[13px]">
+          <li><a href="#collections" class="text-white/55 transition hover:text-rose">Collections</a></li>
+          <li><a href="#collections" data-kids class="text-white/55 transition hover:text-rose">Kids Zone</a></li>
+          <li><a href="#custom" class="text-white/55 transition hover:text-rose">Custom Boutique</a></li>
+          <li><a href="#lookbook" class="text-white/55 transition hover:text-rose">Lookbook</a></li>
+          <li><a href="#location" class="text-white/55 transition hover:text-rose">Location &amp; Timings</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="text-[10px] font-bold uppercase tracking-[0.18em] text-white/35">Reach Us</p>
+        <ul class="mt-3 space-y-2.5 text-[13px] text-white/55">
+          <li class="flex items-start gap-2">
+            <i data-lucide="map-pin" class="mt-0.5 h-4 w-4 shrink-0 text-rose"></i>
+            <span>Taranagar Chouraha, 7284+VGM, Chittupur, Bhagwanpur, Varanasi, UP 221011</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <i data-lucide="phone" class="h-4 w-4 shrink-0 text-rose"></i>
+            <a href="tel:+918009326841" class="transition hover:text-white">080093 26841</a>
+          </li>
+          <li class="flex items-center gap-2">
+            <i data-lucide="clock" class="h-4 w-4 shrink-0 text-rose"></i>
+            <span>Mon–Sat: 11 AM – 9 PM · Sun: Closed</span>
+          </li>
+        </ul>
+        <a href="https://wa.me/918009326841" target="_blank" rel="noopener"
+           class="mt-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 px-4 py-2.5 text-[12.5px] font-semibold text-white transition hover:scale-[1.03]">
+          <i data-lucide="message-circle" class="h-4 w-4"></i> Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-9 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-[11.5px] text-white/35 sm:flex-row">
+      <p>© <span id="year"></span> Boutique Ladies &amp; Kids Wear · All rights reserved.</p>
+      <p class="flex items-center gap-1.5">Crafted with <i data-lucide="heart" class="h-3.5 w-3.5 fill-rose text-rose"></i> in Varanasi, Uttar Pradesh</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     10. SHOPPING BAG DRAWER
+============================================================ -->
+<div id="cartOverlay" class="fixed inset-0 z-[60] hidden bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+
+<aside id="cartDrawer"
+       class="fixed right-0 top-0 z-[61] flex h-full w-full max-w-md translate-x-full flex-col border-l border-white/10 bg-ink2/98 shadow-2xl backdrop-blur-2xl transition-transform duration-400 ease-out"
+       style="transform: translateX(100%);">
+
+  <div class="flex items-center justify-between border-b border-white/10 px-5 py-4">
+    <div class="flex items-center gap-2.5">
+      <span class="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500">
+        <i data-lucide="shopping-bag" class="h-4 w-4 text-white"></i>
+      </span>
+      <div>
+        <h3 class="font-display text-base font-bold text-white">Your Shopping Bag</h3>
+        <p id="cartSubtitle" class="text-[11px] text-white/40">0 items</p>
+      </div>
+    </div>
+    <button id="closeCart" aria-label="Close bag"
+            class="grid h-9 w-9 place-items-center rounded-full border border-white/10 bg-white/5 text-white/60 transition hover:text-white">
+      <i data-lucide="x" class="h-4 w-4"></i>
+    </button>
+  </div>
+
+  <div id="cartItems" class="flex-1 space-y-3 overflow-y-auto px-5 py-4"></div>
+
+  <div id="cartFooter" class="hidden border-t border-white/10 bg-white/[0.03] px-5 py-4">
+    <div class="flex items-center justify-between text-sm">
+      <span class="text-white/55">Subtotal</span>
+      <span id="cartSubtotal" class="font-display text-xl font-bold text-champagne">₹0</span>
+    </div>
+    <p class="mt-1 text-[11px] text-white/35">Delivery &amp; any alteration charges confirmed on WhatsApp.</p>
+
+    <div class="mt-3 grid gap-2">
+      <input id="custName" type="text" placeholder="Your full name *"
+             class="w-full rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[13px] text-white placeholder:text-white/25 outline-none transition focus:border-rose/50">
+      <input id="custPhone" type="tel" inputmode="numeric" maxlength="10" placeholder="Mobile number *"
+             class="w-full rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[13px] text-white placeholder:text-white/25 outline-none transition focus:border-rose/50">
+      <textarea id="custAddress" rows="2" placeholder="Delivery address in Varanasi *"
+                class="w-full resize-none rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[13px] text-white placeholder:text-white/25 outline-none transition focus:border-rose/50"></textarea>
+    </div>
+
+    <p id="cartError" class="mt-2 hidden rounded-lg border border-rose-500/30 bg-rose-500/10 px-3 py-2 text-[12px] font-medium text-rose-300"></p>
+
+    <button id="checkoutBtn"
+            class="mt-3 flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 px-5 py-3.5 text-sm font-bold text-white shadow-lg shadow-emerald-900/40 transition hover:scale-[1.01] hover:shadow-emerald-800/60">
+      <i data-lucide="message-circle" class="h-4 w-4"></i>
+      Checkout via WhatsApp
+    </button>
+    <button id="clearCart" class="mt-2 w-full rounded-xl border border-white/10 py-2 text-[12px] font-medium text-white/40 transition hover:text-rose-300">
+      Clear bag
+    </button>
+  </div>
+</aside>
+
+<!-- ============================================================
+     11. QUICK VIEW MODAL
+============================================================ -->
+<div id="quickView" class="fixed inset-0 z-[70] hidden">
+  <div class="absolute inset-0 bg-black/75 backdrop-blur-sm" data-close="qv"></div>
+  <div class="relative z-10 flex h-full w-full items-center justify-center p-3 sm:p-6">
+    <div id="qvContent" class="glass-strong max-h-[92vh] w-full max-w-4xl overflow-y-auto rounded-3xl"></div>
+  </div>
+</div>
+
+<!-- ============================================================
+     12. WISHLIST PANEL (simple toast-driven)
+============================================================ -->
+<div id="toastWrap" class="pointer-events-none fixed bottom-24 left-1/2 z-[80] flex w-full max-w-sm -translate-x-1/2 flex-col items-center gap-2 px-4 md:bottom-6"></div>
+
+<!-- ============================================================
+     13. FLOATING MOBILE BOTTOM NAV
+============================================================ -->
+<nav class="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-ink/90 backdrop-blur-2xl md:hidden"
+     style="padding-bottom: env(safe-area-inset-bottom);">
+  <div class="grid grid-cols-5">
+    <a href="#home" class="flex flex-col items-center gap-1 py-2.5 text-white/55 transition active:text-rose">
+      <i data-lucide="home" class="h-[18px] w-[18px]"></i>
+      <span class="text-[10px] font-medium">Home</span>
+    </a>
+    <a href="#collections" class="flex flex-col items-center gap-1 py-2.5 text-white/55 transition active:text-rose">
+      <i data-lucide="layout-grid" class="h-[18px] w-[18px]"></i>
+      <span class="text-[10px] font-medium">Shop</span>
+    </a>
+    <button id="mobileBagBtn" class="relative flex flex-col items-center gap-1 py-2.5 text-white/55 transition active:text-rose">
+      <span class="relative">
+        <i data-lucide="shopping-bag" class="h-[18px] w-[18px]"></i>
+        <span id="bagCountMobile" class="absolute -right-2.5 -top-1.5 hidden min-w-[16px] rounded-full bg-gradient-to-br from-pink-500 to-purple-600 px-1 text-[9px] font-bold leading-4 text-white">0</span>
+      </span>
+      <span class="text-[10px] font-medium">Bag</span>
+    </button>
+    <a href="tel:+918009326841" class="flex flex-col items-center gap-1 py-2.5 text-white/55 transition active:text-rose">
+      <i data-lucide="phone" class="h-[18px] w-[18px]"></i>
+      <span class="text-[10px] font-medium">Call</span>
+    </a>
+    <a href="https://wa.me/918009326841" target="_blank" rel="noopener" class="flex flex-col items-center gap-1 py-2.5 text-emerald-400 transition active:scale-95">
+      <i data-lucide="message-circle" class="h-[18px] w-[18px]"></i>
+      <span class="text-[10px] font-medium">WhatsApp</span>
+    </a>
+  </div>
+</nav>
+
+<!-- ============================================================
+     JAVASCRIPT APPLICATION
+============================================================ -->
+<script>
+(function () {
+  'use strict';
+
+  /* ---------------------------------------------------------
+     CONFIG
+  --------------------------------------------------------- */
+  const STORE = {
+    phone: '918009326841',
+    phoneDisplay: '080093 26841',
+    name: 'Boutique Ladies & Kids Wear',
+    nameHi: 'बुटीक लेडीज एंड किड्स वेयर',
+    address: 'Taranagar Chouraha, 7284+VGM, Chittupur, Bhagwanpur, Varanasi, Uttar Pradesh 221011'
+  };
+
+  const FALLBACK_IMG = 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80';
+
+  const CATEGORY_LABELS = {
+    ladies:    { en: 'Ladies Ethnic', hi: 'लेडीज एथनिक' },
+    sarees:    { en: 'Sarees & Lehengas', hi: 'साड़ी और लहंगा' },
+    kidsparty: { en: 'Kids Party Wear', hi: 'किड्स पार्टी वियर' },
+    kidscasual:{ en: 'Kids Casuals', hi: 'किड्स कैज़ुअल' },
+    custom:    { en: 'Boutique Custom', hi: 'कस्टम स्पेशल' }
+  };
+
+  /* ---------------------------------------------------------
+     PRODUCT CATALOG (12 realistic items)
+  --------------------------------------------------------- */
+  const PRODUCTS = [
+    {
+      id: 1, name: 'Banarasi Silk Saree', hindi: 'बनारसी सिल्क साड़ी',
+      category: 'sarees', fabric: 'Pure Silk Blend',
+      price: 2499, mrp: 3999, rating: 5.0, reviews: 48, sold: 320,
+      badge: 'Bestseller', isNew: false,
+      sizes: ['Free Size'],
+      img: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80',
+      desc: 'Handwoven Banarasi-style silk saree with rich zari border and matching blouse piece. Perfect for weddings, puja and festive occasions.'
+    },
+    {
+      id: 2, name: 'Royal Georgette Lehenga Choli', hindi: 'रॉयल जॉर्जेट लहंगा चोली',
+      category: 'sarees', fabric: 'Georgette & Net',
+      price: 3299, mrp: 4999, rating: 5.0, reviews: 36, sold: 210,
+      badge: 'Wedding Special', isNew: false,
+      sizes: ['S', 'M', 'L', 'XL'],
+      img: 'https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=800&q=80',
+      desc: 'Flared georgette lehenga with embroidered choli and dupatta. Lightweight, dance-friendly and ready for the big day.'
+    },
+    {
+      id: 3, name: 'Anarkali Suit Set', hindi: 'अनारकली सूट सेट',
+      category: 'ladies', fabric: 'Pure Cotton',
+      price: 1899, mrp: 2899, rating: 5.0, reviews: 74, sold: 410,
+      badge: 'Top Rated', isNew: false,
+      sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+      img: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80',
+      desc: 'Elegant Anarkali kurta with churidar and dupatta. Breathable cotton — ideal for daily wear and office ethnic days.'
+    },
+    {
+      id: 4, name: 'Chikankari Cotton Kurti', hindi: 'चिकनकारी कॉटन कुर्ती',
+      category: 'ladies', fabric: 'Pure Cotton',
+      price: 899, mrp: 1499, rating: 5.0, reviews: 96, sold: 520,
+      badge: 'New Arrival', isNew: true,
+      sizes: ['S', 'M', 'L', 'XL'],
+      img: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80',
+      desc: 'Lucknowi-style chikankari hand-embroidery on soft cotton. A summer must-have that pairs with everything.'
+    },
+    {
+      id: 5, name: 'Designer Indo-Western Party Gown', hindi: 'डिज़ाइनर पार्टी गाउन',
+      category: 'ladies', fabric: 'Imported Net',
+      price: 2799, mrp: 4299, rating: 5.0, reviews: 29, sold: 150,
+      badge: 'Party Pick', isNew: false,
+      sizes: ['S', 'M', 'L', 'XL'],
+      img: 'https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?auto=format&fit=crop&w=800&q=80',
+      desc: 'Indo-western gown with sequin detailing and a flowing silhouette. Made for receptions, sangeet and cocktail evenings.'
+    },
+    {
+      id: 6, name: 'Kids Party Frock', hindi: 'बच्चों की पार्टी फ्रॉक',
+      category: 'kidsparty', fabric: 'Satin & Net',
+      price: 1299, mrp: 1999, rating: 5.0, reviews: 62, sold: 260,
+      badge: 'Bestseller', isNew: false,
+      sizes: ['2-4 Yrs', '5-7 Yrs', '8-10 Yrs'],
+      img: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=800&q=80',
+      desc: 'Fluffy layered party frock with soft lining — gentle on skin and picture-perfect for birthdays and functions.'
+    },
+    {
+      id: 7, name: 'Kids Lehenga Choli', hindi: 'बच्चों का लहंगा चोली',
+      category: 'kidsparty', fabric: 'Brocade Silk',
+      price: 1599, mrp: 2499, rating: 5.0, reviews: 41, sold: 190,
+      badge: 'New Arrival', isNew: true,
+      sizes: ['2-4 Yrs', '5-7 Yrs', '8-10 Yrs'],
+      img: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=800&q=80',
+      desc: 'Little lehenga choli in brocade silk with dupatta. Adjustable drawstring waist for a comfortable, secure fit.'
+    },
+    {
+      id: 8, name: 'Boys Party Blazer Set', hindi: 'बॉयज़ पार्टी ब्लेज़र सेट',
+      category: 'kidsparty', fabric: 'Cotton Blend',
+      price: 1799, mrp: 2699, rating: 5.0, reviews: 27, sold: 140,
+      badge: 'Party Pick', isNew: false,
+      sizes: ['2-4 Yrs', '5-7 Yrs', '8-10 Yrs'],
+      img: 'https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?auto=format&fit=crop&w=800&q=80',
+      desc: 'Three-piece blazer set with shirt and trousers. Sharp, comfortable and ready for weddings and receptions.'
+    },
+    {
+      id: 9, name: 'Kids Cotton Co-ord Set', hindi: 'बच्चों का कॉटन को-ऑर्ड सेट',
+      category: 'kidscasual', fabric: 'Pure Cotton',
+      price: 699, mrp: 1099, rating: 5.0, reviews: 88, sold: 380,
+      badge: 'Bestseller', isNew: false,
+      sizes: ['2-4 Yrs', '5-7 Yrs', '8-10 Yrs', '11-13 Yrs'],
+      img: 'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?auto=format&fit=crop&w=800&q=80',
+      desc: 'Soft cotton co-ord set — easy to wear, easy to wash. Everyday comfort for school, play and travel.'
+    },
+    {
+      id: 10, name: 'Kids Printed T-Shirt & Denim', hindi: 'बच्चों की टी-शर्ट और डेनिम',
+      category: 'kidscasual', fabric: 'Cotton & Denim',
+      price: 749, mrp: 1199, rating: 5.0, reviews: 55, sold: 300,
+      badge: 'Everyday', isNew: false,
+      sizes: ['2-4 Yrs', '5-7 Yrs', '8-10 Yrs', '11-13 Yrs'],
+      img: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80',
+      desc: 'Fun printed t-shirt paired with stretchable denim. Durable stitching that survives real kid-life.'
+    },
+    {
+      id: 11, name: 'Custom Designer Blouse Stitching', hindi: 'कस्टम डिज़ाइनर ब्लाउज़ सिलाई',
+      category: 'custom', fabric: 'Custom Fitting',
+      price: 799, mrp: 1299, rating: 5.0, reviews: 64, sold: 175,
+      badge: 'Boutique Special', isNew: false,
+      sizes: ['Custom Fit'],
+      img: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=800&q=80',
+      desc: 'Made-to-measure designer blouse stitching with your choice of neckline, sleeve and lining. Measurements taken in-store.'
+    },
+    {
+      id: 12, name: 'Custom Suit / Kurti Stitching', hindi: 'कस्टम सूट / कुर्ती सिलाई',
+      category: 'custom', fabric: 'Custom Fitting',
+      price: 1199, mrp: 1799, rating: 5.0, reviews: 51, sold: 205,
+      badge: 'Boutique Special', isNew: true,
+      sizes: ['Custom Fit'],
+      img: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80',
+      desc: 'Full suit or kurti stitching from your fabric or ours — includes fitting trial and one free alteration.'
+    }
+  ];
+
+  /* ---------------------------------------------------------
+     STATE
+  --------------------------------------------------------- */
+  const state = {
+    filter: 'all',
+    search: '',
+    sort: 'popular',
+    cart: [],
+    wishlist: []
+  };
+
+  /* ---------------------------------------------------------
+     HELPERS
+  --------------------------------------------------------- */
+  const $  = (sel, root) => (root || document).querySelector(sel);
+  const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
+  const inr = n => '₹' + Number(n).toLocaleString('en-IN');
+
+  function refreshIcons() {
+    if (window.lucide && typeof window.lucide.createIcons === 'function') {
+      window.lucide.createIcons();
+    }
+  }
+
+  function getIST() {
+    const now = new Date();
+    const str = now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' });
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? now : d;
+  }
+
+  /* ---------------------------------------------------------
+     TOAST
+  --------------------------------------------------------- */
+  function toast(message, type) {
+    const wrap = $('#toastWrap');
+    if (!wrap) return;
+    const tone = type === 'error'
+      ? 'border-rose-500/40 bg-rose-500/15 text-rose-200'
+      : type === 'success'
+        ? 'border-emerald-500/40 bg-emerald-500/15 text-emerald-200'
+        : 'border-white/15 bg-ink2/95 text-white/85';
+
+    const el = document.createElement('div');
+    el.className = 'pointer-events-auto w-full rounded-2xl border px-4 py-3 text-[13px] font-semibold shadow-2xl backdrop-blur-xl transition-all duration-300 opacity-0 translate-y-3 ' + tone;
+    el.textContent = message;
+    wrap.appendChild(el);
+
+    requestAnimationFrame(() => {
+      el.classList.remove('opacity-0', 'translate-y-3');
+    });
+
+    setTimeout(() => {
+      el.classList.add('opacity-0', 'translate-y-3');
+      setTimeout(() => el.remove(), 320);
+    }, 2600);
+  }
+
+  /* ---------------------------------------------------------
+     1. LIVE STORE STATUS
+  --------------------------------------------------------- */
+  function updateStoreStatus() {
+    const el = $('#storeStatus');
+    if (!el) return;
+
+    const ist = getIST();
+    const day = ist.getDay();                       // 0 = Sunday
+    const minutes = ist.getHours() * 60 + ist.getMinutes();
+
+    const OPEN_MIN = 11 * 60;    // 11:00 AM
+    const CLOSE_MIN = 21 * 60;   // 9:00 PM
+
+    const isOpen = day !== 0 && minutes >= OPEN_MIN && minutes < CLOSE_MIN;
+
+    if (isOpen) {
+      const left = CLOSE_MIN - minutes;
+      const hrs = Math.floor(left / 60);
+      const mins = left % 60;
+      const remaining = hrs > 0
+        ? `${hrs}h ${mins}m left today`
+        : `${mins}m left today`;
+
+      el.innerHTML =
+        '<span class="h-2 w-2 shrink-0 rounded-full bg-emerald-400 glow-green"></span>' +
+        '<span class="text-emerald-300">🟢 Open Now in Bhagwanpur</span>' +
+        '<span class="hidden text-white/35 sm:inline">· Closes at 9:00 PM</span>' +
+        '<span class="hidden rounded-full border border-emerald-400/25 bg-emerald-400/10 px-2 py-0.5 text-[10px] text-emerald-300 md:inline">' + remaining + '</span>';
+    } else {
+      el.innerHTML =
+        '<span class="h-2 w-2 shrink-0 rounded-full bg-rose-400 glow-red"></span>' +
+        '<span class="text-rose-300">🔴 Currently Closed</span>' +
+        '<span class="hidden text-white/35 sm:inline">· Opens Mon–Sat at 11:00 AM</span>';
+    }
+
+    /* Highlight today's row in the schedule table */
+    $$('.sch-row').forEach(row => {
+      row.classList.remove('bg-champagne/10', 'border-l-2', 'border-champagne');
+      if (Number(row.dataset.day) === day) {
+        row.classList.add('bg-champagne/10', 'border-l-2', 'border-champagne');
+      }
+    });
+  }
+
+  /* ---------------------------------------------------------
+     2. PRODUCT RENDERING
+  --------------------------------------------------------- */
+  function getVisibleProducts() {
+    let list = PRODUCTS.slice();
+
+    if (state.filter !== 'all') {
+      list = list.filter(p => p.category === state.filter);
+    }
+
+    const q = state.search.trim().toLowerCase();
+    if (q) {
+      list = list.filter(p =>
+        (p.name + ' ' + p.hindi + ' ' + p.fabric + ' ' +
+         (CATEGORY_LABELS[p.category] ? CATEGORY_LABELS[p.category].en : '')).toLowerCase().includes(q)
+      );
+    }
+
+    switch (state.sort) {
+      case 'low':  list.sort((a, b) => a.price - b.price); break;
+      case 'high': list.sort((a, b) => b.price - a.price); break;
+      case 'new':  list.sort((a, b) => (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0) || b.id - a.id); break;
+      default:     list.sort((a, b) => b.sold - a.sold);
+    }
+    return list;
+  }
+
+  function sizePillsHTML(product) {
+    return product.sizes.map((s, i) =>
+      `<button type="button" class="size-pill ${i === 0 ? 'active' : ''}" data-size="${s}">${s}</button>`
+    ).join('');
+  }
+
+  function productCardHTML(p) {
+    const discount = Math.round(((p.mrp - p.price) / p.mrp) * 100);
+    const cat = CATEGORY_LABELS[p.category] || { en: 'Boutique', hi: '' };
+    const wished = state.wishlist.includes(p.id);
+
+    return `
+    <article class="group glass relative flex flex-col overflow-hidden rounded-3xl transition-all duration-300 hover:-translate-y-1 hover:border-rose/30 hover:shadow-2xl hover:shadow-purple-950/50" data-id="${p.id}">
+
+      <!-- Image -->
+      <div class="relative aspect-[4/5] overflow-hidden">
+        <img src="${p.img}" alt="${p.name} — ${p.hindi}" loading="lazy"
+             onerror="this.onerror=null;this.src='${FALLBACK_IMG}';"
+             class="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-110">
+        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/10 to-transparent"></div>
+
+        <!-- Badge -->
+        <span class="absolute left-3 top-3 rounded-full border border-champagne/30 bg-ink/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-champagne backdrop-blur-md">
+          ${p.badge}
+        </span>
+
+        <!-- Discount -->
+        <span class="absolute right-3 top-3 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-2.5 py-1 text-[10px] font-bold text-white shadow-lg">
+          -${discount}%
+        </span>
+
+        <!-- Wishlist -->
+        <button type="button" class="wishlist-btn absolute bottom-3 right-3 grid h-9 w-9 place-items-center rounded-full border border-white/15 bg-ink/70 backdrop-blur-md transition hover:scale-110 ${wished ? 'text-pink-400 border-pink-400/50' : 'text-white/70'}"
+                data-id="${p.id}" aria-label="Add to wishlist">
+          <i data-lucide="heart" class="h-4 w-4 ${wished ? 'fill-pink-400' : ''}"></i>
+        </button>
+
+        <!-- Rating -->
+        <div class="absolute bottom-3 left-3 flex items-center gap-1 rounded-full border border-white/15 bg-ink/70 px-2.5 py-1 backdrop-blur-md">
+          <i data-lucide="star" class="h-3 w-3 fill-champagne text-champagne"></i>
+          <span class="text-[10.5px] font-bold text-white">${p.rating.toFixed(1)}</span>
+          <span class="text-[10px] text-white/40">(${p.reviews})</span>
+        </div>
+      </div>
+
+      <!-- Body -->
+      <div class="flex flex-1 flex-col gap-2 p-4">
+        <div class="flex items-center justify-between gap-2">
+          <span class="text-[9.5px] font-bold uppercase tracking-[0.14em] text-rose">${cat.en}</span>
+          <span class="hindi text-[10px] text-white/30">${cat.hi}</span>
+        </div>
+
+        <h3 class="font-display text-[17px] font-bold leading-snug text-white">${p.name}</h3>
+        <p class="hindi text-[11.5px] leading-snug text-white/45">${p.hindi}</p>
+
+        <span class="mt-0.5 inline-flex w-fit items-center gap-1 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[10.5px] font-medium text-white/55">
+          <i data-lucide="layers" class="h-3 w-3"></i> ${p.fabric}
+        </span>
+
+        <div class="mt-1 flex items-end gap-2">
+          <span class="font-display text-xl font-bold text-champagne">${inr(p.price)}</span>
+          <span class="text-[12px] text-white/30 line-through">${inr(p.mrp)}</span>
+        </div>
+
+        <!-- Sizes -->
+        <div class="sizes mt-1 flex flex-wrap gap-1.5" data-selected="${p.sizes[0]}">
+          ${sizePillsHTML(p)}
+        </div>
+
+        <!-- Actions -->
+        <div class="mt-auto grid grid-cols-2 gap-2 pt-3">
+          <button type="button" class="quick-view-btn flex items-center justify-center gap-1.5 rounded-xl border border-white/15 bg-white/5 px-2 py-2.5 text-[11.5px] font-semibold text-white/75 transition hover:border-rose/40 hover:text-rose" data-id="${p.id}">
+            <i data-lucide="eye" class="h-3.5 w-3.5"></i> Quick View
+          </button>
+          <button type="button" class="add-bag-btn flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 px-2 py-2.5 text-[11.5px] font-bold text-white shadow-lg shadow-purple-950/50 transition hover:scale-[1.03]" data-id="${p.id}">
+            <i data-lucide="plus" class="h-3.5 w-3.5"></i> Add to Bag
+          </button>
+        </div>
+
+        <button type="button" class="wa-order-btn mt-2 flex w-full items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 px-2 py-2.5 text-[11.5px] font-bold text-white transition hover:scale-[1.02]" data-id="${p.id}">
+          <i data-lucide="message-circle" class="h-3.5 w-3.5"></i> Order on WhatsApp
+        </button>
+      </div>
+    </article>`;
+  }
+
+  function renderProducts() {
+    const grid = $('#productGrid');
+    const empty = $('#emptyState');
+    const countEl = $('#resultCount');
+    const list = getVisibleProducts();
+
+    grid.innerHTML = list.map(productCardHTML).join('');
+
+    if (list.length === 0) {
+      grid.classList.add('hidden');
+      empty.classList.remove('hidden');
+      empty.classList.add('flex');
+    } else {
+      grid.classList.remove('hidden');
+      empty.classList.add('hidden');
+      empty.classList.remove('flex');
+    }
+
+    if (countEl) {
+      const total = PRODUCTS.length;
+      countEl.textContent = state.filter === 'all' && !state.search
+        ? `Showing all ${total} pieces`
+        : `Showing ${list.length} of ${total} pieces`;
+    }
+
+    refreshIcons();
+  }
+
+  /* ---------------------------------------------------------
+     3. CART LOGIC
+  --------------------------------------------------------- */
+  function cartTotal() {
+    return state.cart.reduce((sum, item) => {
+      const p = PRODUCTS.find(x => x.id === item.id);
+      return sum + (p ? p.price * item.qty : 0);
+    }, 0);
+  }
+
+  function cartCount() {
+    return state.cart.reduce((sum, i) => sum + i.qty, 0);
+  }
+
+  function addToCart(id, size, qty) {
+    const product = PRODUCTS.find(p => p.id === id);
+    if (!product) return;
+
+    const chosenSize = size || product.sizes[0];
+    const key = id + '::' + chosenSize;
+    const existing = state.cart.find(i => i.key === key);
+
+    if (existing) {
+      existing.qty += (qty || 1);
+    } else {
+      state.cart.push({ key, id, size: chosenSize, qty: qty || 1 });
+    }
+
+    updateCartUI();
+    openCart();
+    toast(`${product.name} (${chosenSize}) added to bag`, 'success');
+  }
+
+  function removeFromCart(key) {
+    state.cart = state.cart.filter(i => i.key !== key);
+    updateCartUI();
+  }
+
+  function changeQty(key, delta) {
+    const item = state.cart.find(i => i.key === key);
+    if (!item) return;
+    item.qty += delta;
+    if (item.qty <= 0) {
+      state.cart = state.cart.filter(i => i.key !== key);
+    }
+    updateCartUI();
+  }
+
+  function cartItemHTML(item) {
+    const p = PRODUCTS.find(x => x.id === item.id);
+    if (!p) return '';
+    return `
+    <div class="glass flex gap-3 rounded-2xl p-2.5">
+      <div class="h-[76px] w-[62px] shrink-0 overflow-hidden rounded-xl">
+        <img src="${p.img}" alt="${p.name}" onerror="this.onerror=null;this.src='${FALLBACK_IMG}';"
+             class="h-full w-full object-cover">
+      </div>
+      <div class="flex min-w-0 flex-1 flex-col">
+        <div class="flex items-start justify-between gap-2">
+          <div class="min-w-0">
+            <p class="truncate font-display text-[13px] font-bold text-white">${p.name}</p>
+            <p class="truncate text-[10.5px] text-white/40">Size: <span class="font-semibold text-rose">${item.size}</span> · ${p.fabric}</p>
+          </div>
+          <button type="button" class="cart-remove shrink-0 text-white/30 transition hover:text-rose-400" data-key="${item.key}" aria-label="Remove item">
+            <i data-lucide="trash-2" class="h-3.5 w-3.5"></i>
+          </button>
+        </div>
+        <div class="mt-auto flex items-center justify-between pt-1.5">
+          <div class="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-1 py-0.5">
+            <button type="button" class="cart-minus grid h-5 w-5 place-items-center rounded-full text-white/60 transition hover:bg-white/10 hover:text-white" data-key="${item.key}">−</button>
+            <span class="min-w-[16px] text-center text-[11.5px] font-bold text-white">${item.qty}</span>
+            <button type="button" class="cart-plus grid h-5 w-5 place-items-center rounded-full text-white/60 transition hover:bg-white/10 hover:text-white" data-key="${item.key}">+</button>
+          </div>
+          <p class="font-display text-[13.5px] font-bold text-champagne">${inr(p.price * item.qty)}</p>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  function updateCartUI() {
+    const itemsEl = $('#cartItems');
+    const footer = $('#cartFooter');
+    const subtotalEl = $('#cartSubtotal');
+    const subtitleEl = $('#cartSubtitle');
+    const count = cartCount();
+
+    /* Bag badges */
+    ['#bagCount', '#bagCountMobile'].forEach(sel => {
+      const badge = $(sel);
+      if (!badge) return;
+      if (count > 0) {
+        badge.textContent = count;
+        badge.classList.remove('hidden');
+      } else {
+        badge.classList.add('hidden');
+      }
+    });
+
+    if (state.cart.length === 0) {
+      itemsEl.innerHTML = `
+        <div class="flex h-full flex-col items-center justify-center py-16 text-center">
+          <span class="grid h-16 w-16 place-items-center rounded-full border border-white/10 bg-white/5">
+            <i data-lucide="shopping-bag" class="h-7 w-7 text-white/25"></i>
+          </span>
+          <p class="mt-4 font-display text-lg text-white/70">Your bag is empty</p>
+          <p class="mt-1 max-w-[240px] text-[12.5px] text-white/35">Add your favourite sarees, suits or kids wear to begin.</p>
+          <button id="emptyShopBtn" class="mt-5 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 px-5 py-2.5 text-[12.5px] font-bold text-white">
+            Browse Collection
+          </button>
+        </div>`;
+      footer.classList.add('hidden');
+      subtitleEl.textContent = '0 items';
+      if (subtotalEl) subtotalEl.textContent = inr(0);
+      refreshIcons();
+      return;
+    }
+
+    itemsEl.innerHTML = state.cart.map(cartItemHTML).join('');
+    footer.classList.remove('hidden');
+    subtitleEl.textContent = count + (count === 1 ? ' item' : ' items');
+    subtotalEl.textContent = inr(cartTotal());
+    refreshIcons();
+  }
+
+  /* ---------------------------------------------------------
+     4. DRAWER / MODAL CONTROLS
+  --------------------------------------------------------- */
+  function lockScroll(lock) {
+    document.body.style.overflow = lock ? 'hidden' : '';
+  }
+
+  function openCart() {
+    const drawer = $('#cartDrawer');
+    const overlay = $('#cartOverlay');
+    drawer.style.transform = 'translateX(0)';
+    overlay.classList.remove('hidden');
+    requestAnimationFrame(() => overlay.classList.remove('opacity-0'));
+    lockScroll(true);
+  }
+
+  function closeCart() {
+    const drawer = $('#cartDrawer');
+    const overlay = $('#cartOverlay');
+    drawer.style.transform = 'translateX(100%)';
+    overlay.classList.add('opacity-0');
+    setTimeout(() => overlay.classList.add('hidden'), 300);
+    lockScroll(false);
+  }
+
+  function openQuickView(id) {
+    const p = PRODUCTS.find(x => x.id === id);
+    if (!p) return;
+
+    const discount = Math.round(((p.mrp - p.price) / p.mrp) * 100);
+    const cat = CATEGORY_LABELS[p.category] || { en: 'Boutique' };
+
+    $('#qvContent').innerHTML = `
+      <div class="grid gap-0 sm:grid-cols-2">
+        <div class="relative h-[260px] sm:h-full sm:min-h-[420px]">
+          <img src="${p.img}" alt="${p.name}" onerror="this.onerror=null;this.src='${FALLBACK_IMG}';"
+               class="h-full w-full object-cover sm:rounded-l-3xl">
+          <span class="absolute left-4 top-4 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-3 py-1 text-[11px] font-bold text-white">-${discount}% OFF</span>
+        </div>
+
+        <div class="relative p-5 sm:p-7">
+          <button type="button" class="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-full border border-white/15 bg-white/5 text-white/60 transition hover:text-white" data-close="qv" aria-label="Close">
+            <i data-lucide="x" class="h-4 w-4"></i>
+          </button>
+
+          <span class="text-[10px] font-bold uppercase tracking-[0.16em] text-rose">${cat.en}</span>
+          <h3 class="mt-2 font-display text-2xl font-bold leading-tight text-white">${p.name}</h3>
+          <p class="hindi mt-1 text-[12.5px] text-white/45">${p.hindi}</p>
+
+          <div class="mt-3 flex items-center gap-2">
+            <div class="flex items-center gap-0.5">
+              ${'<i data-lucide="star" class="h-3.5 w-3.5 fill-champagne text-champagne"></i>'.repeat(5)}
+            </div>
+            <span class="text-[12px] font-semibold text-white">${p.rating.toFixed(1)}</span>
+            <span class="text-[11.5px] text-white/35">(${p.reviews} reviews)</span>
+          </div>
+
+          <p class="mt-3 text-[13px] leading-relaxed text-white/60">${p.desc}</p>
+
+          <div class="mt-4 flex items-center gap-2">
+            <span class="inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[11px] text-white/60">
+              <i data-lucide="layers" class="h-3 w-3"></i> ${p.fabric}
+            </span>
+            <span class="inline-flex items-center gap-1 rounded-full border border-emerald-400/25 bg-emerald-400/10 px-2.5 py-1 text-[11px] text-emerald-300">
+              <i data-lucide="check" class="h-3 w-3"></i> In Stock
+            </span>
+          </div>
+
+          <div class="mt-4 flex items-end gap-2.5">
+            <span class="font-display text-3xl font-bold text-champagne">${inr(p.price)}</span>
+            <span class="mb-1 text-[14px] text-white/30 line-through">${inr(p.mrp)}</span>
+            <span class="mb-1 text-[12px] font-semibold text-emerald-400">Save ${inr(p.mrp - p.price)}</span>
+          </div>
+
+          <div class="mt-4">
+            <p class="mb-2 text-[10.5px] font-bold uppercase tracking-wider text-white/40">Select Size</p>
+            <div id="qvSizes" class="flex flex-wrap gap-1.5" data-selected="${p.sizes[0]}">
+              ${p.sizes.map((s, i) => `<button type="button" class="size-pill ${i === 0 ? 'active' : ''}" data-size="${s}">${s}</button>`).join('')}
+            </div>
+          </div>
+
+          <div class="mt-5 grid gap-2">
+            <button type="button" id="qvAddBag" data-id="${p.id}"
+                    class="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 px-4 py-3 text-[13px] font-bold text-white shadow-lg shadow-purple-950/50 transition hover:scale-[1.02]">
+              <i data-lucide="shopping-bag" class="h-4 w-4"></i> Add to Bag
+            </button>
+            <button type="button" id="qvWaOrder" data-id="${p.id}"
+                    class="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 px-4 py-3 text-[13px] font-bold text-white transition hover:scale-[1.02]">
+              <i data-lucide="message-circle" class="h-4 w-4"></i> Buy Now on WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>`;
+
+    $('#quickView').classList.remove('hidden');
+    lockScroll(true);
+    refreshIcons();
+  }
+
+  function closeQuickView() {
+    $('#quickView').classList.add('hidden');
+    lockScroll(false);
+  }
+
+  /* ---------------------------------------------------------
+     5. WHATSAPP MESSAGE BUILDERS
+  --------------------------------------------------------- */
+  function waLink(message) {
+    return 'https://wa.me/' + STORE.phone + '?text=' + encodeURIComponent(message);
+  }
+
+  function openWhatsApp(message) {
+    window.open(waLink(message), '_blank', 'noopener');
+  }
+
+  function buildSingleOrderMessage(product, size) {
+    const lines = [
+      '*🛍️ NEW ORDER — ' + STORE.name + '*',
+      '_' + STORE.nameHi + '_',
+      '📍 ' + STORE.address,
+      '',
+      '*Product:* ' + product.name,
+      '*नाम:* ' + product.hindi,
+      '*Fabric:* ' + product.fabric,
+      '*Size:* ' + size,
+      '*Quantity:* 1',
+      '*Price:* ' + inr(product.price) + ' (MRP ' + inr(product.mrp) + ')',
+      '',
+      '*Total Payable: ' + inr(product.price) + '*',
+      '',
+      'Please confirm availability and delivery/pickup details. 🙏'
+    ];
+    return lines.join('\n');
+  }
+
+  function buildCartMessage(name, phone, address) {
+    const lines = [
+      '*🛍️ NEW ORDER — ' + STORE.name + '*',
+      '_' + STORE.nameHi + '_',
+      '📍 ' + STORE.address,
+      '',
+      '*ORDER ITEMS*',
+      '──────────────────'
+    ];
+
+    state.cart.forEach((item, index) => {
+      const p = PRODUCTS.find(x => x.id === item.id);
+      if (!p) return;
+      lines.push(
+        (index + 1) + '. *' + p.name + '* (' + p.hindi + ')',
+        '   • Size: ' + item.size,
+        '   • Qty: ' + item.qty,
+        '   • ' + inr(p.price) + ' × ' + item.qty + ' = *' + inr(p.price * item.qty) + '*'
+      );
+    });
+
+    lines.push('──────────────────');
+    lines.push('*TOTAL AMOUNT: ' + inr(cartTotal()) + '*');
+    lines.push('');
+    lines.push('*CUSTOMER DETAILS*');
+    lines.push('👤 Name: ' + name);
+    if (phone) lines.push('📞 Phone: ' + phone);
+    lines.push('🏠 Address: ' + address);
+    lines.push('');
+    lines.push('💳 Payment: Cash / UPI (Google Pay / PhonePe)');
+    lines.push('');
+    lines.push('Please confirm my order. 🙏');
+
+    return lines.join('\n');
+  }
+
+  /* ---------------------------------------------------------
+     6. APPOINTMENT FORM
+  --------------------------------------------------------- */
+  function buildTimeSlots() {
+    const sel = $('#apptTime');
+    if (!sel) return;
+    sel.innerHTML = '';
+
+    const fmt = (h, m) => {
+      const ap = h >= 12 ? 'PM' : 'AM';
+      const hh = h % 12 === 0 ? 12 : h % 12;
+      return hh + ':' + String(m).padStart(2, '0') + ' ' + ap;
+    };
+
+    for (let mins = 11 * 60; mins <= 20 * 60 + 30; mins += 30) {
+      const h = Math.floor(mins / 60);
+      const m = mins % 60;
+      const value = String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0');
+      const opt = document.createElement('option');
+      opt.value = value;
+      opt.textContent = fmt(h, m);
+      opt.className = 'bg-ink2';
+      sel.appendChild(opt);
+    }
+  }
+
+  function setDateMin() {
+    const dateEl = $('#apptDate');
+    if (!dateEl) return;
+    const ist = getIST();
+    const y = ist.getFullYear();
+    const m = String(ist.getMonth() + 1).padStart(2, '0');
+    const d = String(ist.getDate()).padStart(2, '0');
+    dateEl.min = y + '-' + m + '-' + d;
+  }
+
+  function handleAppointmentSubmit(e) {
+    e.preventDefault();
+
+    const nameEl = $('#apptName');
+    const phoneEl = $('#apptPhone');
+    const serviceEl = $('#apptService');
+    const dateEl = $('#apptDate');
+    const timeEl = $('#apptTime');
+    const noteEl = $('#apptNote');
+    const errEl = $('#apptError');
+
+    const showError = (msg) => {
+      errEl.textContent = msg;
+      errEl.classList.remove('hidden');
+    };
+
+    errEl.classList.add('hidden');
+
+    const name = nameEl.value.trim();
+    const phone = phoneEl.value.replace(/\D/g, '');
+    const service = serviceEl.value;
+    const date = dateEl.value;
+    const time = timeEl.value;
+    const note = noteEl.value.trim();
+
+    if (name.length < 2) return showError('Please enter your full name.');
+    if (phone.length !== 10) return showError('Please enter a valid 10-digit mobile number.');
+    if (!date) return showError('Please choose a preferred date.');
+    if (!time) return showError('Please choose a preferred time slot.');
+
+    /* Validate time window 11:00 – 21:00 */
+    const [hh, mm] = time.split(':').map(Number);
+    const totalMins = hh * 60 + mm;
+    if (totalMins < 11 * 60 || totalMins > 21 * 60) {
+      return showError('Please choose a time between 11:00 AM and 9:00 PM.');
+    }
+
+    /* Validate the date is not a Sunday */
+    const chosen = new Date(date + 'T00:00:00');
+    if (chosen.getDay() === 0) {
+      return showError('We are closed on Sundays. Please pick Monday to Saturday.');
+    }
+
+    const pretty = chosen.toLocaleDateString('en-IN', {
+      weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+    });
+
+    const fmtTime = (() => {
+      const ap = hh >= 12 ? 'PM' : 'AM';
+      const h12 = hh % 12 === 0 ? 12 : hh % 12;
+      return h12 + ':' + String(mm).padStart(2, '0') + ' ' + ap;
+    })();
+
+    const lines = [
+      '*📅 BOUTIQUE APPOINTMENT REQUEST*',
+      '*' + STORE.name + '*',
+      '_' + STORE.nameHi + '_',
+      '',
+      '👤 *Name:* ' + name,
+      '📞 *Phone:* +91 ' + phone,
+      '✂️ *Service:* ' + service,
+      '📆 *Date:* ' + pretty,
+      '🕒 *Time:* ' + fmtTime + ' (IST)',
+      note ? '📝 *Notes:* ' + note : '',
+      '',
+      '📍 Location: Taranagar Chouraha, Chittupur, Bhagwanpur, Varanasi 221011',
+      '',
+      'Please confirm my appointment slot. 🙏'
+    ].filter(Boolean);
+
+    openWhatsApp(lines.join('\n'));
+
+    toast('Appointment request sent to WhatsApp ✔', 'success');
+    e.target.reset();
+    buildTimeSlots();
+    setDateMin();
+  }
+
+  /* ---------------------------------------------------------
+     7. EVENT BINDINGS
+  --------------------------------------------------------- */
+  function bindEvents() {
+
+    /* --- Navbar mobile menu --- */
+    const menuBtn = $('#menuBtn');
+    const mobileMenu = $('#mobileMenu');
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      $$('.mob-link').forEach(a => a.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+    }
+
+    /* --- "Kids Zone" nav shortcut --- */
+    $$('[data-kids]').forEach(link => {
+      link.addEventListener('click', () => {
+        state.filter = 'kidsparty';
+        $$('.filter-tab').forEach(t => {
+          t.classList.toggle('tab-active', t.dataset.filter === 'kidsparty');
+        });
+        renderProducts();
+        if (mobileMenu) mobileMenu.classList.add('hidden');
+      });
+    });
+
+    /* --- Filter tabs --- */
+    $$('.filter-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        state.filter = tab.dataset.filter;
+        $$('.filter-tab').forEach(t => t.classList.remove('tab-active'));
+        tab.classList.add('tab-active');
+        renderProducts();
+      });
+    });
+
+    /* --- Search --- */
+    const searchInput = $('#searchInput');
+    let searchTimer;
+    searchInput.addEventListener('input', (e) => {
+      clearTimeout(searchTimer);
+      const value = e.target.value;
+      searchTimer = setTimeout(() => {
+        state.search = value;
+        renderProducts();
+      }, 180);
+    });
+
+    /* --- Sort --- */
+    $('#sortSelect').addEventListener('change', (e) => {
+      state.sort = e.target.value;
+      renderProducts();
+    });
+
+    /* --- Reset filters --- */
+    $('#resetFilters').addEventListener('click', () => {
+      state.filter = 'all';
+      state.search = '';
+      state.sort = 'popular';
+      searchInput.value = '';
+      $('#sortSelect').value = 'popular';
+      $$('.filter-tab').forEach(t => t.classList.toggle('tab-active', t.dataset.filter === 'all'));
+      renderProducts();
+    });
+
+    /* --- Product grid (delegated) --- */
+    const grid = $('#productGrid');
+
+    grid.addEventListener('click', (e) => {
+
+      /* Size pill */
+      const sizeBtn = e.target.closest('.size-pill');
+      if (sizeBtn) {
+        const wrap = sizeBtn.parentElement;
+        wrap.dataset.selected = sizeBtn.dataset.size;
+        Array.from(wrap.children).forEach(btn => btn.classList.remove('active'));
+        sizeBtn.classList.add('active');
+        return;
+      }
+
+      /* Wishlist */
+      const wishBtn = e.target.closest('.wishlist-btn');
+      if (wishBtn) {
+        const id = Number(wishBtn.dataset.id);
+        const idx = state.wishlist.indexOf(id);
+        if (idx > -1) {
+          state.wishlist.splice(idx, 1);
+          toast('Removed from wishlist');
+        } else {
+          state.wishlist.push(id);
+          toast('Saved to wishlist ❤️', 'success');
+        }
+        updateWishlistUI();
+        renderProducts();
+        return;
+      }
+
+      /* Quick view */
+      const qvBtn = e.target.closest('.quick-view-btn');
+      if (qvBtn) {
+        openQuickView(Number(qvBtn.dataset.id));
+        return;
+      }
+
+      /* Add to bag */
+      const addBtn = e.target.closest('.add-bag-btn');
+      if (addBtn) {
+        const card = addBtn.closest('article');
+        const sizeWrap = card.querySelector('.sizes');
+        const size = sizeWrap ? sizeWrap.dataset.selected : null;
+        addToCart(Number(addBtn.dataset.id), size, 1);
+        return;
+      }
+
+      /* Direct WhatsApp order */
+      const waBtn = e.target.closest('.wa-order-btn');
+      if (waBtn) {
+        const card = waBtn.closest('article');
+        const sizeWrap = card.querySelector('.sizes');
+        const size = sizeWrap ? sizeWrap.dataset.selected : '';
+        const product = PRODUCTS.find(p => p.id === Number(waBtn.dataset.id));
+        if (!product) return;
+        openWhatsApp(buildSingleOrderMessage(product, size));
+        toast('Opening WhatsApp…', 'success');
+      }
+    });
+
+    /* --- Wishlist button in navbar --- */
+    $('#wishBtn').addEventListener('click', () => {
+      if (state.wishlist.length === 0) {
+        toast('Your wishlist is empty. Tap the ❤ on any product.');
+        return;
+      }
+      const names = state.wishlist
+        .map(id => PRODUCTS.find(p => p.id === id))
+        .filter(Boolean)
+        .map(p => '• ' + p.name + ' — ' + inr(p.price))
+        .join('\n');
+
+      openWhatsApp(
+        '*❤️ WISHLIST ENQUIRY — ' + STORE.name + '*\n\n' +
+        names + '\n\nPlease share availability and best price. 🙏'
+      );
+      toast('Sending wishlist to WhatsApp…', 'success');
+    });
+
+    /* --- Cart open / close --- */
+    $('#bagBtn').addEventListener('click', openCart);
+    $('#mobileBagBtn').addEventListener('click', openCart);
+    $('#closeCart').addEventListener('click', closeCart);
+    $('#cartOverlay').addEventListener('click', closeCart);
+
+    /* --- Cart item actions (delegated) --- */
+    const cartItems = $('#cartItems');
+
+    cartItems.addEventListener('click', (e) => {
+      const minus = e.target.closest('.cart-minus');
+      if (minus) { changeQty(minus.dataset.key, -1); return; }
+
+      const plus = e.target.closest('.cart-plus');
+      if (plus) { changeQty(plus.dataset.key, 1); return; }
+
+      const remove = e.target.closest('.cart-remove');
+      if (remove) {
+        removeFromCart(remove.dataset.key);
+        toast('Item removed from bag');
+        return;
+      }
+
+      const emptyShop = e.target.closest('#emptyShopBtn');
+      if (emptyShop) {
+        closeCart();
+        document.getElementById('collections').scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+
+    /* --- Clear cart --- */
+    $('#clearCart').addEventListener('click', () => {
+      if (state.cart.length === 0) return;
+      state.cart = [];
+      updateCartUI();
+      toast('Bag cleared');
+    });
+
+    /* --- Checkout via WhatsApp --- */
+    $('#checkoutBtn').addEventListener('click', () => {
+      const nameEl = $('#custName');
+      const phoneEl = $('#custPhone');
+      const addressEl = $('#custAddress');
+      const errEl = $('#cartError');
+
+      const name = nameEl.value.trim();
+      const phone = phoneEl.value.replace(/\D/g, '');
+      const address = addressEl.value.trim();
+
+      errEl.classList.add('hidden');
+
+      if (name.length < 2) {
+        errEl.textContent = 'Please enter your full name.';
+        errEl.classList.remove('hidden');
+        nameEl.focus();
+        return;
+      }
+      if (phone.length !== 10) {
+        errEl.textContent = 'Please enter a valid 10-digit mobile number.';
+        errEl.classList.remove('hidden');
+        phoneEl.focus();
+        return;
+      }
+      if (address.length < 8) {
+        errEl.textContent = 'Please enter your delivery address in Varanasi.';
+        errEl.classList.remove('hidden');
+        addressEl.focus();
+        return;
+      }
+      if (state.cart.length === 0) return;
+
+      openWhatsApp(buildCartMessage(name, phone, address));
+      toast('Opening WhatsApp with your order…', 'success');
+    });
+
+    /* --- Quick view modal (delegated) --- */
+    const qv = $('#quickView');
+
+    qv.addEventListener('click', (e) => {
+      const closer = e.target.closest('[data-close="qv"]');
+      if (closer) { closeQuickView(); return; }
+
+      const sizeBtn = e.target.closest('#qvSizes .size-pill');
+      if (sizeBtn) {
+        const wrap = $('#qvSizes');
+        wrap.dataset.selected = sizeBtn.dataset.size;
+        Array.from(wrap.children).forEach(b => b.classList.remove('active'));
+        sizeBtn.classList.add('active');
+        return;
+      }
+
+      const addBtn = e.target.closest('#qvAddBag');
+      if (addBtn) {
+        const size = $('#qvSizes') ? $('#qvSizes').dataset.selected : null;
+        closeQuickView();
+        addToCart(Number(addBtn.dataset.id), size, 1);
+        return;
+      }
+
+      const waBtn = e.target.closest('#qvWaOrder');
+      if (waBtn) {
+        const size = $('#qvSizes') ? $('#qvSizes').dataset.selected : '';
+        const product = PRODUCTS.find(p => p.id === Number(waBtn.dataset.id));
+        if (!product) return;
+        openWhatsApp(buildSingleOrderMessage(product, size));
+        toast('Opening WhatsApp…', 'success');
+        closeQuickView();
+      }
+    });
+
+    /* --- Escape key --- */
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        if (!$('#quickView').classList.contains('hidden')) closeQuickView();
+        else closeCart();
+      }
+    });
+
+    /* --- Appointment form --- */
+    $('#apptForm').addEventListener('submit', handleAppointmentSubmit);
+
+    $('#apptPhone').addEventListener('input', (e) => {
+      e.target.value = e.target.value.replace(/\D/g, '').slice(0, 10);
+    });
+
+    $('#custPhone').addEventListener('input', (e) => {
+      e.target.value = e.target.value.replace(/\D/g, '').slice(0, 10);
+    });
+
+    /* --- Navbar shrink on scroll --- */
+    const navbar = $('#navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        navbar.classList.add('shadow-2xl', 'shadow-black/50', 'bg-ink/90');
+      } else {
+        navbar.classList.remove('shadow-2xl', 'shadow-black/50', 'bg-ink/90');
+      }
+    }, { passive: true });
+
+    /* --- Reveal on scroll --- */
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      $$('.reveal').forEach((el, i) => {
+        el.style.animationDelay = (i * 90) + 'ms';
+        io.observe(el);
+      });
+    } else {
+      $$('.reveal').forEach(el => el.classList.add('in'));
+    }
+  }
+
+  /* ---------------------------------------------------------
+     8. WISHLIST UI
+  --------------------------------------------------------- */
+  function updateWishlistUI() {
+    const badge = $('#wishCount');
+    if (!badge) return;
+    if (state.wishlist.length > 0) {
+      badge.textContent = state.wishlist.length;
+      badge.classList.remove('hidden');
+    } else {
+      badge.classList.add('hidden');
+    }
+  }
+
+  /* ---------------------------------------------------------
+     9. INIT
+  --------------------------------------------------------- */
+  function init() {
+    const yearEl = $('#year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    buildTimeSlots();
+    setDateMin();
+
+    renderProducts();
+    updateCartUI();
+    updateWishlistUI();
+    updateStoreStatus();
+    bindEvents();
+    refreshIcons();
+
+    /* Live status refresh every 30 seconds */
+    setInterval(updateStoreStatus, 30000);
+
+    /* Keep icons alive after font/layout shifts */
+    window.addEventListener('load', refreshIcons);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();
+</script>
+
+</body>
+  </html>
